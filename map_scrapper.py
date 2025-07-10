@@ -27,6 +27,8 @@ def extract_data(store, state, area):
     soup = BeautifulSoup(open(page_source, encoding='utf-8').read(), 'html.parser')
     if soup.find(name='div',attrs={"class": "store_details"}):
         store_list = soup.find_all(name='div', attrs={"class": "store_details"})
+        logging.info(f'Total of {len(store_list)} {store} stores found')
+        logging.info(f'Extracting data of {len(store_list)} stores')
         for store in store_list:
             name = store.find(name='h1', attrs={"class":"lfPIob"}).text
             address = store.find(name= 'button', attrs={"data-item-id": "address"})['aria-label']
@@ -47,16 +49,20 @@ def extract_data(store, state, area):
                 ratings = store.find(name= 'div', attrs={"class": "F7nice"}).find_next().text
                 review = store.find(name= 'div', attrs={"class": "F7nice"})._last_descendant().text
         
-                store_data.append({
-                    'State': state,
-                    'Area' : area,
-                    'Address': address,
-                    'Store Name' : name,
-                    'Rating' : ratings,
-                    'Review Count': review,
-                    'Store Status': store_status                        
-                })
+            store_data.append({
+                'State': state,
+                'Area' : area,
+                'Address': address,
+                'Store Name' : name,
+                'Rating' : ratings,
+                'Review Count': review,
+                'Store Status': store_status                        
+            })
+            logging.info(f'Store: {name} completed.')
+                
     else: 
+        logging.info(f'Total of {len(store_list)} {store} store found')
+        logging.info(f'Extracting data of {len(store_list)} store')
         name = soup.find(name= "h1")
         address = soup.find(name= 'button', attrs={"data-item-id": "address"})['aria-label']
         if soup.find(string='Open') or soup.find(string='Closed') or soup.find(string='Open 24 hours'):
@@ -84,6 +90,7 @@ def extract_data(store, state, area):
             'Review Count': review,
             'Store Status': store_status 
         })
+        logging.info(f'Store: {name} completed.')
     return store_data
 
 extract_source('KFC', ["W.P. Labuan"])
