@@ -1,0 +1,17 @@
+2025-07-10 13:22:07,104 - INFO - Initializing WebDriver
+2025-07-10 13:22:09,857 - INFO - Loading Google Maps
+2025-07-10 13:22:13,742 - INFO - Getting input search box
+2025-07-10 13:22:13,852 - INFO - Searching for W.P. Labuan:
+2025-07-10 13:22:20,906 - INFO - Looking for nearby location button
+2025-07-10 13:22:22,049 - INFO - Getting nearby location input search box 
+2025-07-10 13:22:22,146 - INFO - Searching for KFC near Labuan, W.P. Labuan:
+2025-07-10 13:22:29,696 - INFO - Looking for Searched Results
+2025-07-10 13:22:29,725 - INFO - Found. Scrolling search results list
+2025-07-10 13:22:32,796 - INFO - Total of 3 stores found at KFC near Labuan, W.P. Labuan 
+2025-07-10 13:22:34,307 - INFO - Extracting source of 3 stores
+2025-07-10 13:22:37,490 - INFO - Store: KFC Labuan 1 completed.
+2025-07-10 13:22:39,974 - INFO - Store: KFC Utama Jaya, Labuan 3 completed.
+2025-07-10 13:22:41,994 - INFO - Store: KFC Financial Park, Labuan completed.
+2025-07-10 13:22:42,575 - INFO - Combining Page Sources
+2025-07-10 13:22:42,586 - INFO - KFC near Labuan, W.P. Labuan: 3
+2025-07-10 13:22:42,589 - INFO - KFC data for W.P. Labuan was loaded into csv
