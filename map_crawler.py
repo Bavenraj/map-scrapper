@@ -8,7 +8,7 @@ from bs4 import BeautifulSoup
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from area_to_scrape import area_to_scrape_dict
-from selenium.common.exceptions import TimeoutException
+from selenium.common.exceptions import TimeoutException, NoSuchElementException
 from file_modifier import get_file, write_file
 
 logging.basicConfig(filename="log/map_crawler.log", encoding="utf-8", filemode="a",
@@ -46,7 +46,7 @@ def find_state(query):
     return driver
 
 def find_nearby_location(driver, query):    
-    all_stores_detail = []
+    
     logging.info("Getting nearby location input search box ")
     WebDriverWait(driver, 3).until(EC.presence_of_element_located((By.ID, "searchboxinput")))
     input = driver.find_element(by=By.ID, value = "searchboxinput")
@@ -57,72 +57,54 @@ def find_nearby_location(driver, query):
     time.sleep(3)
     driver.refresh()
     time.sleep(3)
-    
-    try:
-        logging.info("Looking for Searched Results")
-        WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.CSS_SELECTOR, f"[aria-label='Results for {query}']")))
-        scrollableElement = driver.find_element(by=By.CSS_SELECTOR, value =f"[aria-label='Results for {query}']")
-        final_count = 0
-        logging.info("Found. Scrolling search results list")
-        while True:
-            for _ in range(3):
-                driver.execute_script('arguments[0].scrollBy(0,1000);', scrollableElement)
-                time.sleep(1)
+    logging.info("Looking for Searched Results")
+    while True:
+        try:
+            WebDriverWait(driver, 2).until(EC.presence_of_element_located((By.CSS_SELECTOR, f"[aria-label='Results for {query}']")))
+            return scrape_results(driver, query)
+            
+        except TimeoutException:
+            try:
+                WebDriverWait(driver, 2).until(EC.presence_of_element_located((By.CLASS_NAME, "lfPIob")))
+                return scrape_result(driver, query)
                 
-            if driver.find_elements(by=By.CLASS_NAME, value = "PbZDve") :
+            except TimeoutException:
+                pass
+    
+def scrape_results(driver, query):
+    all_stores_detail = []
+    scrollableElement = driver.find_element(by=By.CSS_SELECTOR, value =f"[aria-label='Results for {query}']")
+    final_count = 0
+    logging.info("Found. Scrolling search results list")
+    while True:
+        for _ in range(3):
+            driver.execute_script('arguments[0].scrollBy(0,1000);', scrollableElement)
+            time.sleep(1)
+            
+        try:
+            if driver.find_element(by=By.CLASS_NAME, value = "PbZDve"):
                 result_found = driver.find_elements(by=By.CLASS_NAME, value = "hfpxzc")
                 final_count = len(result_found)
                 logging.info(f"Total of {final_count} stores found at {query} ")
                 break 
-            else:
-                pass
+        except NoSuchElementException:
+            pass
 
-        driver.execute_script("arguments[0].scrollTop=0;", scrollableElement)
-        time.sleep(1.5)
-        
-        logging.info(f"Extracting source of {final_count} stores")
-        for result in result_found:
-            driver.execute_script("arguments[0].scrollIntoView(true);", result)
-            result.click()
-            while True:
-                try:
-                    WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.CLASS_NAME, "lfPIob")))
-                    WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.CSS_SELECTOR, "[data-item-id = 'address']")))
-                    break
-                except TimeoutException:
-                    pass
-            while True:          
-                page_html = driver.page_source
-                soup = BeautifulSoup(page_html, "html.parser")
-                store_name = soup.find(name='h1', attrs={"class":"lfPIob"}).text
-                store_details = soup.find(name= 'div', attrs={"class": "lMbq3e"})
-                store_region = soup.find(name='div', attrs={"aria-label":f"Information for {store_name}"})
-                if None not in [store_name, store_details, store_region]:
-                    break
-                else:
-                    pass
-            all_stores_detail.append(str(f"<div class='store_details'>{store_details} {store_region}</div>"))
-            logging.info(f"Store: {store_name} completed.") 
-            driver.find_element(by=By.CSS_SELECTOR, value = f"[data-disable-idom = 'true']").click()
-            while True:
-                try:
-                    WebDriverWait(driver, 2).until(EC.invisibility_of_element((By.CLASS_NAME, "lfPIob")))
-                    WebDriverWait(driver, 2).until(EC.invisibility_of_element((By.CSS_SELECTOR, "[data-item-id = 'address']")))
-                    break
-                except TimeoutException:
-                    pass
-                
-        logging.info("Combining Page Sources")
-        with open(f"scraped_pagesource/{query}.html", "w", encoding="utf-8") as file:
-            file.write(f"<html><head><meta charset='utf-8'></head><body>{''.join(all_stores_detail)}</body><html>")
-        logging.info(f"{query}: {final_count}")
-        
-        return final_count
+    driver.execute_script("arguments[0].scrollTop=0;", scrollableElement)
+    time.sleep(1.5)
     
-    except TimeoutException:
-        logging.info("Result list not found. Only One Result available")
-        time.sleep(2)
-        logging.info("Extracting Page Source")
+    logging.info(f"Extracting source of {final_count} stores")
+    for result in result_found:
+        driver.execute_script("arguments[0].scrollIntoView(true);", result)
+        time.sleep(0.5)
+        WebDriverWait(driver, 2).until(EC.element_to_be_clickable(result))
+        result.click()
+        while True:
+            try:
+                WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.CLASS_NAME, "lfPIob")))
+                break
+            except TimeoutException:
+                pass
         while True:          
             page_html = driver.page_source
             soup = BeautifulSoup(page_html, "html.parser")
@@ -133,11 +115,49 @@ def find_nearby_location(driver, query):
                 break
             else:
                 pass
-        with open(f"scraped_pagesource/{query}.html", "w", encoding="utf-8") as file:
-            file.write(page_html)
-        final_count = 1
-        logging.info(f"{query}: {final_count}")
-        return final_count
+        all_stores_detail.append(str(f"<div class='store_details'>{store_details} {store_region}</div>"))
+        logging.info(f"Store: {store_name} completed.") 
+        driver.find_element(by=By.CSS_SELECTOR, value = f"[data-disable-idom = 'true']").click()
+        while True:
+            try:
+                WebDriverWait(driver, 2).until(EC.invisibility_of_element((By.CLASS_NAME, "lfPIob")))
+                WebDriverWait(driver, 2).until(EC.invisibility_of_element((By.CSS_SELECTOR, "[data-item-id = 'address']")))
+                break
+            except TimeoutException:
+                pass
+            
+    logging.info("Combining Page Sources")
+    with open(f"scraped_pagesource/{query}.html", "w", encoding="utf-8") as file:
+        file.write(f"<html><head><meta charset='utf-8'></head><body>{''.join(all_stores_detail)}</body><html>")
+    logging.info(f"{query}: {final_count}")
+    
+    return final_count
+    
+def scrape_result(driver, query):
+    logging.info("Result list not found. Only One Result available")
+    time.sleep(2)
+    logging.info("Extracting Page Source")
+    while True:
+        try:
+            WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.CLASS_NAME, "lfPIob")))
+            break
+        except TimeoutException:
+            pass
+    while True:          
+        page_html = driver.page_source
+        soup = BeautifulSoup(page_html, "html.parser")
+        store_name = soup.find(name='h1', attrs={"class":"lfPIob"}).text
+        store_details = soup.find(name= 'div', attrs={"class": "lMbq3e"})
+        store_region = soup.find(name='div', attrs={"aria-label":f"Information for {store_name}"})
+        if None not in [store_name, store_details, store_region]:
+            break
+        else:
+            pass
+    with open(f"scraped_pagesource/{query}.html", "w", encoding="utf-8") as file:
+        file.write(page_html)
+    final_count = 1
+    logging.info(f"{query}: {final_count}")
+    return final_count
            
 def start_scrape(store, state_list = area_to_scrape_dict):
     store_count = []
@@ -174,5 +194,7 @@ def start_scrape(store, state_list = area_to_scrape_dict):
         write_file(csv_file, fieldnames, store_data)    
         logging.info(f"{store} data for {state} was loaded into csv")
     print(store_data)
+    
+State = ["Perlis",	"Kedah", "Kelantan", "Terengganu", "Pulau Pinang", "Perak",	"Pahang", "Selangor", "Negeri Sembilan", "Melaka", "Johor", "Sabah", "Sarawak",	"W.P. Kuala Lumpur", "W.P. Putrajaya", "W.P. Labuan"]
 
-start_scrape('KFC', ["W.P. Labuan"])
+start_scrape('KFC', [ "W.P. Kuala Lumpur", "W.P. Putrajaya", "W.P. Labuan"])

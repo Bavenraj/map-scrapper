@@ -1,2 +1,643 @@
 Store,State,Area,Count,Duration
-KFC,W.P. Labuan,Labuan,3,32.73
+KFC,Johor,Segamat,3,35.26
+KFC,Johor,Sekijang,22,85.71
+KFC,Johor,Labis,1,27.77
+KFC,Johor,Pagoh,2,28.81
+KFC,Johor,Ledang,1,26.38
+KFC,Johor,Bakri,6,38.29
+KFC,Johor,Muar,8,47.37
+KFC,Johor,Parit Sulong,1,27.36
+KFC,Johor,Ayer Hitam,1,26.87
+KFC,Johor,Sri Gading,6,39.1
+KFC,Johor,Batu Pahat,6,37.98
+KFC,Johor,Simpang Renggam,1,26.22
+KFC,Johor,Kluang,7,44.71
+KFC,Johor,Sembrong,21,91.25
+KFC,Johor,Mersing,3,30.67
+KFC,Johor,Tenggara,1,26.16
+KFC,Johor,Kota Tinggi,3,30.7
+KFC,Johor,Pengerang,11,48.6
+KFC,Johor,Tebrau,6,37.42
+KFC,Johor,Pasir Gudang,5,36.66
+KFC,Johor,Johor Bahru,43,164.99
+KFC,Johor,Pulai,12,52.29
+KFC,Johor,Iskandar Puteri,6,38.36
+KFC,Johor,Kulai,7,40.13
+KFC,Johor,Pontian,3,30.97
+KFC,Johor,Tanjung Piai,8,41.67
+KFC,Kedah,Langkawi,6,47.63
+KFC,Kedah,Jerlun,1,27.78
+KFC,Kedah,Kubang Pasu,6,37.77
+KFC,Kedah,Padang Terap,8,42.73
+KFC,Kedah,Pokok Sena,1,26.87
+KFC,Kedah,Alor Setar,13,64.42
+KFC,Kedah,Kuala Kedah,1,26.19
+KFC,Kedah,Pendang,2,31.2
+KFC,Kedah,Jerai,19,90.29
+KFC,Kedah,Sik,1,27.95
+KFC,Kedah,Merbok,8,43.5
+KFC,Kedah,Sungai Petani,11,51.95
+KFC,Kedah,Baling,1,26.49
+KFC,Kedah,Padang Serai,1,26.42
+KFC,Kedah,Kulim-Bandar Baharu,6,42.48
+KFC,Kelantan,Tumpat,1,32.19
+KFC,Kelantan,Pengkalan Chepa,11,59.97
+KFC,Kelantan,Kota Bharu,10,51.13
+KFC,Kelantan,Pasir Mas,1,26.57
+KFC,Kelantan,Rantau Panjang,2,31.98
+KFC,Kelantan,Kubang Kerian,1,27.86
+KFC,Kelantan,Bachok,2,32.4
+KFC,Kelantan,Ketereh,7,45.59
+KFC,Kelantan,Tanah Merah,1,27.84
+KFC,Kelantan,Pasir Puteh,1,27.89
+KFC,Kelantan,Machang,3,33.64
+KFC,Kelantan,Jeli,2,31.77
+KFC,Kelantan,Kuala Krai,3,35.02
+KFC,Kelantan,Gua Musang,1,27.3
+KFC,Kelantan,Tumpat,1,32.19
+KFC,Kelantan,Pengkalan Chepa,11,59.97
+KFC,Kelantan,Kota Bharu,10,51.13
+KFC,Kelantan,Pasir Mas,1,26.57
+KFC,Kelantan,Rantau Panjang,2,31.98
+KFC,Kelantan,Kubang Kerian,1,27.86
+KFC,Kelantan,Bachok,2,32.4
+KFC,Kelantan,Ketereh,7,45.59
+KFC,Kelantan,Tanah Merah,1,27.84
+KFC,Kelantan,Pasir Puteh,1,27.89
+KFC,Kelantan,Machang,3,33.64
+KFC,Kelantan,Jeli,2,31.77
+KFC,Kelantan,Kuala Krai,3,35.02
+KFC,Kelantan,Gua Musang,1,27.3
+KFC,Melaka,Masjid Tanah,2,33.89
+KFC,Melaka,Alor Gajah,1,27.44
+KFC,Melaka,Tangga Batu,16,83.26
+KFC,Melaka,Hang Tuah Jaya,16,76.24
+KFC,Melaka,Kota Melaka,18,82.04
+KFC,Melaka,Jasin,4,35.59
+KFC,Negeri Sembilan,Jelebu,1,28.11
+KFC,Negeri Sembilan,Jempol,2,32.43
+KFC,Negeri Sembilan,Seremban,14,69.82
+KFC,Negeri Sembilan,Kuala Pilah,1,26.74
+KFC,Negeri Sembilan,Rasah,3,31.66
+KFC,Negeri Sembilan,Rembau,1,26.48
+KFC,Negeri Sembilan,Port Dickson,3,83.62
+KFC,Negeri Sembilan,Tampin,1,27.7
+KFC,Negeri Sembilan,Jelebu,1,28.11
+KFC,Negeri Sembilan,Jempol,2,32.43
+KFC,Negeri Sembilan,Seremban,14,69.82
+KFC,Negeri Sembilan,Kuala Pilah,1,26.74
+KFC,Negeri Sembilan,Rasah,3,31.66
+KFC,Negeri Sembilan,Rembau,1,26.48
+KFC,Negeri Sembilan,Port Dickson,3,83.62
+KFC,Negeri Sembilan,Tampin,1,27.7
+KFC,Pahang,Cameron Highlands,1,26.64
+KFC,Pahang,Lipis,1,26.57
+KFC,Pahang,Raub,2,29.27
+KFC,Pahang,Jerantut,1,26.98
+KFC,Pahang,Indera Mahkota,2,29.3
+KFC,Pahang,Kuantan,17,1659.52
+KFC,Pahang,Paya Besar,1,26.51
+KFC,Pahang,Pekan,2,28.62
+KFC,Pahang,Maran,1,27.48
+KFC,Pahang,Kuala Krau,8,43.58
+KFC,Pahang,Temerloh,2,28.92
+KFC,Pahang,Bentong,3,30.35
+KFC,Pahang,Bera,9,44.32
+KFC,Pahang,Rompin,1,27.29
+KFC,Negeri Sembilan,Jelebu,1,28.11
+KFC,Negeri Sembilan,Jempol,2,32.43
+KFC,Negeri Sembilan,Seremban,14,69.82
+KFC,Negeri Sembilan,Kuala Pilah,1,26.74
+KFC,Negeri Sembilan,Rasah,3,31.66
+KFC,Negeri Sembilan,Rembau,1,26.48
+KFC,Negeri Sembilan,Port Dickson,3,83.62
+KFC,Negeri Sembilan,Tampin,1,27.7
+KFC,Pahang,Cameron Highlands,1,26.64
+KFC,Pahang,Lipis,1,26.57
+KFC,Pahang,Raub,2,29.27
+KFC,Pahang,Jerantut,1,26.98
+KFC,Pahang,Indera Mahkota,2,29.3
+KFC,Pahang,Kuantan,17,1659.52
+KFC,Pahang,Paya Besar,1,26.51
+KFC,Pahang,Pekan,2,28.62
+KFC,Pahang,Maran,1,27.48
+KFC,Pahang,Kuala Krau,8,43.58
+KFC,Pahang,Temerloh,2,28.92
+KFC,Pahang,Bentong,3,30.35
+KFC,Pahang,Bera,9,44.32
+KFC,Pahang,Rompin,1,27.29
+KFC,Perak,Gerik,1,26.09
+KFC,Perak,Lenggong,12,54.7
+KFC,Perak,Larut,4,35.24
+KFC,Perak,Parit Buntar,3,33.41
+KFC,Perak,Bagan Serai,1,26.45
+KFC,Perak,Bukit Gantang,5,37.07
+KFC,Perak,Taiping,6,39.01
+KFC,Perak,Padang Rengas,23,89.5
+KFC,Perak,Sungai Siput,1,26.33
+KFC,Perak,Tambun,1,26.39
+KFC,Perak,Ipoh Timor,5,36.64
+KFC,Perak,Ipoh Barat,15,62.69
+KFC,Perak,Batu Gajah,1,28.09
+KFC,Perak,Kuala Kangsar,2,30.17
+KFC,Perak,Beruas,1,26.24
+KFC,Perak,Parit,5,36.1
+KFC,Perak,Kampar,4,32.84
+KFC,Perak,Gopeng,2,29.17
+KFC,Perak,Tapah,2,28.5
+KFC,Perak,Pasir Salak,13,55.47
+KFC,Perak,Lumut,1,26.85
+KFC,Perak,Bagan Datuk,2,28.22
+KFC,Perak,Teluk Intan,2,28.66
+KFC,Perak,Tanjong Malim,2,29.4
+KFC,Negeri Sembilan,Jelebu,1,28.11
+KFC,Negeri Sembilan,Jempol,2,32.43
+KFC,Negeri Sembilan,Seremban,14,69.82
+KFC,Negeri Sembilan,Kuala Pilah,1,26.74
+KFC,Negeri Sembilan,Rasah,3,31.66
+KFC,Negeri Sembilan,Rembau,1,26.48
+KFC,Negeri Sembilan,Port Dickson,3,83.62
+KFC,Negeri Sembilan,Tampin,1,27.7
+KFC,Pahang,Cameron Highlands,1,26.64
+KFC,Pahang,Lipis,1,26.57
+KFC,Pahang,Raub,2,29.27
+KFC,Pahang,Jerantut,1,26.98
+KFC,Pahang,Indera Mahkota,2,29.3
+KFC,Pahang,Kuantan,17,1659.52
+KFC,Pahang,Paya Besar,1,26.51
+KFC,Pahang,Pekan,2,28.62
+KFC,Pahang,Maran,1,27.48
+KFC,Pahang,Kuala Krau,8,43.58
+KFC,Pahang,Temerloh,2,28.92
+KFC,Pahang,Bentong,3,30.35
+KFC,Pahang,Bera,9,44.32
+KFC,Pahang,Rompin,1,27.29
+KFC,Perak,Gerik,1,26.09
+KFC,Perak,Lenggong,12,54.7
+KFC,Perak,Larut,4,35.24
+KFC,Perak,Parit Buntar,3,33.41
+KFC,Perak,Bagan Serai,1,26.45
+KFC,Perak,Bukit Gantang,5,37.07
+KFC,Perak,Taiping,6,39.01
+KFC,Perak,Padang Rengas,23,89.5
+KFC,Perak,Sungai Siput,1,26.33
+KFC,Perak,Tambun,1,26.39
+KFC,Perak,Ipoh Timor,5,36.64
+KFC,Perak,Ipoh Barat,15,62.69
+KFC,Perak,Batu Gajah,1,28.09
+KFC,Perak,Kuala Kangsar,2,30.17
+KFC,Perak,Beruas,1,26.24
+KFC,Perak,Parit,5,36.1
+KFC,Perak,Kampar,4,32.84
+KFC,Perak,Gopeng,2,29.17
+KFC,Perak,Tapah,2,28.5
+KFC,Perak,Pasir Salak,13,55.47
+KFC,Perak,Lumut,1,26.85
+KFC,Perak,Bagan Datuk,2,28.22
+KFC,Perak,Teluk Intan,2,28.66
+KFC,Perak,Tanjong Malim,2,29.4
+KFC,Negeri Sembilan,Jelebu,1,28.11
+KFC,Negeri Sembilan,Jempol,2,32.43
+KFC,Negeri Sembilan,Seremban,14,69.82
+KFC,Negeri Sembilan,Kuala Pilah,1,26.74
+KFC,Negeri Sembilan,Rasah,3,31.66
+KFC,Negeri Sembilan,Rembau,1,26.48
+KFC,Negeri Sembilan,Port Dickson,3,83.62
+KFC,Negeri Sembilan,Tampin,1,27.7
+KFC,Pahang,Cameron Highlands,1,26.64
+KFC,Pahang,Lipis,1,26.57
+KFC,Pahang,Raub,2,29.27
+KFC,Pahang,Jerantut,1,26.98
+KFC,Pahang,Indera Mahkota,2,29.3
+KFC,Pahang,Kuantan,17,1659.52
+KFC,Pahang,Paya Besar,1,26.51
+KFC,Pahang,Pekan,2,28.62
+KFC,Pahang,Maran,1,27.48
+KFC,Pahang,Kuala Krau,8,43.58
+KFC,Pahang,Temerloh,2,28.92
+KFC,Pahang,Bentong,3,30.35
+KFC,Pahang,Bera,9,44.32
+KFC,Pahang,Rompin,1,27.29
+KFC,Perak,Gerik,1,26.09
+KFC,Perak,Lenggong,12,54.7
+KFC,Perak,Larut,4,35.24
+KFC,Perak,Parit Buntar,3,33.41
+KFC,Perak,Bagan Serai,1,26.45
+KFC,Perak,Bukit Gantang,5,37.07
+KFC,Perak,Taiping,6,39.01
+KFC,Perak,Padang Rengas,23,89.5
+KFC,Perak,Sungai Siput,1,26.33
+KFC,Perak,Tambun,1,26.39
+KFC,Perak,Ipoh Timor,5,36.64
+KFC,Perak,Ipoh Barat,15,62.69
+KFC,Perak,Batu Gajah,1,28.09
+KFC,Perak,Kuala Kangsar,2,30.17
+KFC,Perak,Beruas,1,26.24
+KFC,Perak,Parit,5,36.1
+KFC,Perak,Kampar,4,32.84
+KFC,Perak,Gopeng,2,29.17
+KFC,Perak,Tapah,2,28.5
+KFC,Perak,Pasir Salak,13,55.47
+KFC,Perak,Lumut,1,26.85
+KFC,Perak,Bagan Datuk,2,28.22
+KFC,Perak,Teluk Intan,2,28.66
+KFC,Perak,Tanjong Malim,2,29.4
+KFC,Pulau Pinang,Kepala Batas,3,32.42
+KFC,Pulau Pinang,Tasek Gelugor,20,76.89
+KFC,Pulau Pinang,Bagan,7,41.01
+KFC,Pulau Pinang,Permatang Pauh,3,33.16
+KFC,Pulau Pinang,Bukit Mertajam,10,49.99
+KFC,Pulau Pinang,Batu Kawan,2,30.95
+KFC,Pulau Pinang,Nibong Tebal,1,26.48
+KFC,Pulau Pinang,Bukit Bendera,16,63.54
+KFC,Pulau Pinang,Tanjong,2,29.99
+KFC,Pulau Pinang,Jelutong,7,40.81
+KFC,Pulau Pinang,Bukit Gelugor,1,26.57
+KFC,Pulau Pinang,Bayan Baru,4,33.63
+KFC,Pulau Pinang,Balik Pulau,2,29.84
+KFC,Negeri Sembilan,Jelebu,1,28.11
+KFC,Negeri Sembilan,Jempol,2,32.43
+KFC,Negeri Sembilan,Seremban,14,69.82
+KFC,Negeri Sembilan,Kuala Pilah,1,26.74
+KFC,Negeri Sembilan,Rasah,3,31.66
+KFC,Negeri Sembilan,Rembau,1,26.48
+KFC,Negeri Sembilan,Port Dickson,3,83.62
+KFC,Negeri Sembilan,Tampin,1,27.7
+KFC,Pahang,Cameron Highlands,1,26.64
+KFC,Pahang,Lipis,1,26.57
+KFC,Pahang,Raub,2,29.27
+KFC,Pahang,Jerantut,1,26.98
+KFC,Pahang,Indera Mahkota,2,29.3
+KFC,Pahang,Kuantan,17,1659.52
+KFC,Pahang,Paya Besar,1,26.51
+KFC,Pahang,Pekan,2,28.62
+KFC,Pahang,Maran,1,27.48
+KFC,Pahang,Kuala Krau,8,43.58
+KFC,Pahang,Temerloh,2,28.92
+KFC,Pahang,Bentong,3,30.35
+KFC,Pahang,Bera,9,44.32
+KFC,Pahang,Rompin,1,27.29
+KFC,Perak,Gerik,1,26.09
+KFC,Perak,Lenggong,12,54.7
+KFC,Perak,Larut,4,35.24
+KFC,Perak,Parit Buntar,3,33.41
+KFC,Perak,Bagan Serai,1,26.45
+KFC,Perak,Bukit Gantang,5,37.07
+KFC,Perak,Taiping,6,39.01
+KFC,Perak,Padang Rengas,23,89.5
+KFC,Perak,Sungai Siput,1,26.33
+KFC,Perak,Tambun,1,26.39
+KFC,Perak,Ipoh Timor,5,36.64
+KFC,Perak,Ipoh Barat,15,62.69
+KFC,Perak,Batu Gajah,1,28.09
+KFC,Perak,Kuala Kangsar,2,30.17
+KFC,Perak,Beruas,1,26.24
+KFC,Perak,Parit,5,36.1
+KFC,Perak,Kampar,4,32.84
+KFC,Perak,Gopeng,2,29.17
+KFC,Perak,Tapah,2,28.5
+KFC,Perak,Pasir Salak,13,55.47
+KFC,Perak,Lumut,1,26.85
+KFC,Perak,Bagan Datuk,2,28.22
+KFC,Perak,Teluk Intan,2,28.66
+KFC,Perak,Tanjong Malim,2,29.4
+KFC,Pulau Pinang,Kepala Batas,3,32.42
+KFC,Pulau Pinang,Tasek Gelugor,20,76.89
+KFC,Pulau Pinang,Bagan,7,41.01
+KFC,Pulau Pinang,Permatang Pauh,3,33.16
+KFC,Pulau Pinang,Bukit Mertajam,10,49.99
+KFC,Pulau Pinang,Batu Kawan,2,30.95
+KFC,Pulau Pinang,Nibong Tebal,1,26.48
+KFC,Pulau Pinang,Bukit Bendera,16,63.54
+KFC,Pulau Pinang,Tanjong,2,29.99
+KFC,Pulau Pinang,Jelutong,7,40.81
+KFC,Pulau Pinang,Bukit Gelugor,1,26.57
+KFC,Pulau Pinang,Bayan Baru,4,33.63
+KFC,Pulau Pinang,Balik Pulau,2,29.84
+KFC,Sabah,Kudat,1,26.4
+KFC,Sabah,Kota Marudu,2,29.27
+KFC,Sabah,Kota Belud,2,28.67
+KFC,Sabah,Tuaran,3,31.09
+KFC,Sabah,Sepanggar,2,28.52
+KFC,Sabah,Kota Kinabalu,35,132.59
+KFC,Sabah,Putatan,1,26.7
+KFC,Sabah,Penampang,3,32.54
+KFC,Sabah,Papar,3,31.01
+KFC,Sabah,Kimanis,13,55.46
+KFC,Sabah,Beaufort,1,26.18
+KFC,Sabah,Sipitang,1,26.73
+KFC,Sabah,Ranau,2,28.68
+KFC,Sabah,Keningau,2,29.72
+KFC,Sabah,Tenom,1,26.17
+KFC,Sabah,Pensiangan,22,85.44
+KFC,Sabah,Beluran,2,30.67
+KFC,Sabah,Libaran,1,26.22
+KFC,Sabah,Batu Sapi,13,56.18
+KFC,Sabah,Sandakan,6,38.54
+KFC,Sabah,Kinabatangan,2,28.71
+KFC,Sabah,Lahad Datu,4,33.42
+KFC,Sabah,Semporna,2,28.62
+KFC,Sabah,Tawau,10,48.41
+KFC,Sabah,Kalabakan,15,63.26
+KFC,Negeri Sembilan,Jelebu,1,28.11
+KFC,Negeri Sembilan,Jempol,2,32.43
+KFC,Negeri Sembilan,Seremban,14,69.82
+KFC,Negeri Sembilan,Kuala Pilah,1,26.74
+KFC,Negeri Sembilan,Rasah,3,31.66
+KFC,Negeri Sembilan,Rembau,1,26.48
+KFC,Negeri Sembilan,Port Dickson,3,83.62
+KFC,Negeri Sembilan,Tampin,1,27.7
+KFC,Pahang,Cameron Highlands,1,26.64
+KFC,Pahang,Lipis,1,26.57
+KFC,Pahang,Raub,2,29.27
+KFC,Pahang,Jerantut,1,26.98
+KFC,Pahang,Indera Mahkota,2,29.3
+KFC,Pahang,Kuantan,17,1659.52
+KFC,Pahang,Paya Besar,1,26.51
+KFC,Pahang,Pekan,2,28.62
+KFC,Pahang,Maran,1,27.48
+KFC,Pahang,Kuala Krau,8,43.58
+KFC,Pahang,Temerloh,2,28.92
+KFC,Pahang,Bentong,3,30.35
+KFC,Pahang,Bera,9,44.32
+KFC,Pahang,Rompin,1,27.29
+KFC,Perak,Gerik,1,26.09
+KFC,Perak,Lenggong,12,54.7
+KFC,Perak,Larut,4,35.24
+KFC,Perak,Parit Buntar,3,33.41
+KFC,Perak,Bagan Serai,1,26.45
+KFC,Perak,Bukit Gantang,5,37.07
+KFC,Perak,Taiping,6,39.01
+KFC,Perak,Padang Rengas,23,89.5
+KFC,Perak,Sungai Siput,1,26.33
+KFC,Perak,Tambun,1,26.39
+KFC,Perak,Ipoh Timor,5,36.64
+KFC,Perak,Ipoh Barat,15,62.69
+KFC,Perak,Batu Gajah,1,28.09
+KFC,Perak,Kuala Kangsar,2,30.17
+KFC,Perak,Beruas,1,26.24
+KFC,Perak,Parit,5,36.1
+KFC,Perak,Kampar,4,32.84
+KFC,Perak,Gopeng,2,29.17
+KFC,Perak,Tapah,2,28.5
+KFC,Perak,Pasir Salak,13,55.47
+KFC,Perak,Lumut,1,26.85
+KFC,Perak,Bagan Datuk,2,28.22
+KFC,Perak,Teluk Intan,2,28.66
+KFC,Perak,Tanjong Malim,2,29.4
+KFC,Pulau Pinang,Kepala Batas,3,32.42
+KFC,Pulau Pinang,Tasek Gelugor,20,76.89
+KFC,Pulau Pinang,Bagan,7,41.01
+KFC,Pulau Pinang,Permatang Pauh,3,33.16
+KFC,Pulau Pinang,Bukit Mertajam,10,49.99
+KFC,Pulau Pinang,Batu Kawan,2,30.95
+KFC,Pulau Pinang,Nibong Tebal,1,26.48
+KFC,Pulau Pinang,Bukit Bendera,16,63.54
+KFC,Pulau Pinang,Tanjong,2,29.99
+KFC,Pulau Pinang,Jelutong,7,40.81
+KFC,Pulau Pinang,Bukit Gelugor,1,26.57
+KFC,Pulau Pinang,Bayan Baru,4,33.63
+KFC,Pulau Pinang,Balik Pulau,2,29.84
+KFC,Sabah,Kudat,1,26.4
+KFC,Sabah,Kota Marudu,2,29.27
+KFC,Sabah,Kota Belud,2,28.67
+KFC,Sabah,Tuaran,3,31.09
+KFC,Sabah,Sepanggar,2,28.52
+KFC,Sabah,Kota Kinabalu,35,132.59
+KFC,Sabah,Putatan,1,26.7
+KFC,Sabah,Penampang,3,32.54
+KFC,Sabah,Papar,3,31.01
+KFC,Sabah,Kimanis,13,55.46
+KFC,Sabah,Beaufort,1,26.18
+KFC,Sabah,Sipitang,1,26.73
+KFC,Sabah,Ranau,2,28.68
+KFC,Sabah,Keningau,2,29.72
+KFC,Sabah,Tenom,1,26.17
+KFC,Sabah,Pensiangan,22,85.44
+KFC,Sabah,Beluran,2,30.67
+KFC,Sabah,Libaran,1,26.22
+KFC,Sabah,Batu Sapi,13,56.18
+KFC,Sabah,Sandakan,6,38.54
+KFC,Sabah,Kinabatangan,2,28.71
+KFC,Sabah,Lahad Datu,4,33.42
+KFC,Sabah,Semporna,2,28.62
+KFC,Sabah,Tawau,10,48.41
+KFC,Sabah,Kalabakan,15,63.26
+KFC,Sarawak,Mas Gading,1,26.91
+KFC,Sarawak,Santubong,19,78.3
+KFC,Sarawak,Petra Jaya,3,31.3
+KFC,Sarawak,Bandar Kuching,19,75.58
+KFC,Sarawak,Stampin,26,95.56
+KFC,Sarawak,Kota Samarahan,3,32.67
+KFC,Sarawak,Puncak Borneo,11,52.3
+KFC,Sarawak,Serian,3,31.14
+KFC,Sarawak,Batang Sadong,26,97.4
+KFC,Sarawak,Batang Lupar,18,75.45
+KFC,Sarawak,Sri Aman,1,26.57
+KFC,Sarawak,Lubok Antu,2,27.43
+KFC,Sarawak,Betong,1,26.03
+KFC,Sarawak,Saratok,1,26.48
+KFC,Sarawak,Tanjong Manis,6,37.79
+KFC,Sarawak,Igan,9,45.18
+KFC,Sarawak,Sarikei,1,26.09
+KFC,Sarawak,Julau,5,34.74
+KFC,Sarawak,Kanowit,17,68.03
+KFC,Sarawak,Lanang,8,43.63
+KFC,Sarawak,Sibu,9,46.42
+KFC,Sarawak,Mukah,1,27.16
+KFC,Sarawak,Selangau,17,67.06
+KFC,Sarawak,Kapit,1,26.31
+KFC,Sarawak,Hulu Rajang,1,26.12
+KFC,Sarawak,Bintulu,6,39.44
+KFC,Sarawak,Sibuti,11,52.01
+KFC,Sarawak,Miri,10,48.15
+KFC,Sarawak,Baram,4,36.54
+KFC,Sarawak,Limbang,1,27.12
+KFC,Sarawak,Lawas,1,27.51
+KFC,Negeri Sembilan,Jelebu,1,28.11
+KFC,Negeri Sembilan,Jempol,2,32.43
+KFC,Negeri Sembilan,Seremban,14,69.82
+KFC,Negeri Sembilan,Kuala Pilah,1,26.74
+KFC,Negeri Sembilan,Rasah,3,31.66
+KFC,Negeri Sembilan,Rembau,1,26.48
+KFC,Negeri Sembilan,Port Dickson,3,83.62
+KFC,Negeri Sembilan,Tampin,1,27.7
+KFC,Pahang,Cameron Highlands,1,26.64
+KFC,Pahang,Lipis,1,26.57
+KFC,Pahang,Raub,2,29.27
+KFC,Pahang,Jerantut,1,26.98
+KFC,Pahang,Indera Mahkota,2,29.3
+KFC,Pahang,Kuantan,17,1659.52
+KFC,Pahang,Paya Besar,1,26.51
+KFC,Pahang,Pekan,2,28.62
+KFC,Pahang,Maran,1,27.48
+KFC,Pahang,Kuala Krau,8,43.58
+KFC,Pahang,Temerloh,2,28.92
+KFC,Pahang,Bentong,3,30.35
+KFC,Pahang,Bera,9,44.32
+KFC,Pahang,Rompin,1,27.29
+KFC,Perak,Gerik,1,26.09
+KFC,Perak,Lenggong,12,54.7
+KFC,Perak,Larut,4,35.24
+KFC,Perak,Parit Buntar,3,33.41
+KFC,Perak,Bagan Serai,1,26.45
+KFC,Perak,Bukit Gantang,5,37.07
+KFC,Perak,Taiping,6,39.01
+KFC,Perak,Padang Rengas,23,89.5
+KFC,Perak,Sungai Siput,1,26.33
+KFC,Perak,Tambun,1,26.39
+KFC,Perak,Ipoh Timor,5,36.64
+KFC,Perak,Ipoh Barat,15,62.69
+KFC,Perak,Batu Gajah,1,28.09
+KFC,Perak,Kuala Kangsar,2,30.17
+KFC,Perak,Beruas,1,26.24
+KFC,Perak,Parit,5,36.1
+KFC,Perak,Kampar,4,32.84
+KFC,Perak,Gopeng,2,29.17
+KFC,Perak,Tapah,2,28.5
+KFC,Perak,Pasir Salak,13,55.47
+KFC,Perak,Lumut,1,26.85
+KFC,Perak,Bagan Datuk,2,28.22
+KFC,Perak,Teluk Intan,2,28.66
+KFC,Perak,Tanjong Malim,2,29.4
+KFC,Pulau Pinang,Kepala Batas,3,32.42
+KFC,Pulau Pinang,Tasek Gelugor,20,76.89
+KFC,Pulau Pinang,Bagan,7,41.01
+KFC,Pulau Pinang,Permatang Pauh,3,33.16
+KFC,Pulau Pinang,Bukit Mertajam,10,49.99
+KFC,Pulau Pinang,Batu Kawan,2,30.95
+KFC,Pulau Pinang,Nibong Tebal,1,26.48
+KFC,Pulau Pinang,Bukit Bendera,16,63.54
+KFC,Pulau Pinang,Tanjong,2,29.99
+KFC,Pulau Pinang,Jelutong,7,40.81
+KFC,Pulau Pinang,Bukit Gelugor,1,26.57
+KFC,Pulau Pinang,Bayan Baru,4,33.63
+KFC,Pulau Pinang,Balik Pulau,2,29.84
+KFC,Sabah,Kudat,1,26.4
+KFC,Sabah,Kota Marudu,2,29.27
+KFC,Sabah,Kota Belud,2,28.67
+KFC,Sabah,Tuaran,3,31.09
+KFC,Sabah,Sepanggar,2,28.52
+KFC,Sabah,Kota Kinabalu,35,132.59
+KFC,Sabah,Putatan,1,26.7
+KFC,Sabah,Penampang,3,32.54
+KFC,Sabah,Papar,3,31.01
+KFC,Sabah,Kimanis,13,55.46
+KFC,Sabah,Beaufort,1,26.18
+KFC,Sabah,Sipitang,1,26.73
+KFC,Sabah,Ranau,2,28.68
+KFC,Sabah,Keningau,2,29.72
+KFC,Sabah,Tenom,1,26.17
+KFC,Sabah,Pensiangan,22,85.44
+KFC,Sabah,Beluran,2,30.67
+KFC,Sabah,Libaran,1,26.22
+KFC,Sabah,Batu Sapi,13,56.18
+KFC,Sabah,Sandakan,6,38.54
+KFC,Sabah,Kinabatangan,2,28.71
+KFC,Sabah,Lahad Datu,4,33.42
+KFC,Sabah,Semporna,2,28.62
+KFC,Sabah,Tawau,10,48.41
+KFC,Sabah,Kalabakan,15,63.26
+KFC,Sarawak,Mas Gading,1,26.91
+KFC,Sarawak,Santubong,19,78.3
+KFC,Sarawak,Petra Jaya,3,31.3
+KFC,Sarawak,Bandar Kuching,19,75.58
+KFC,Sarawak,Stampin,26,95.56
+KFC,Sarawak,Kota Samarahan,3,32.67
+KFC,Sarawak,Puncak Borneo,11,52.3
+KFC,Sarawak,Serian,3,31.14
+KFC,Sarawak,Batang Sadong,26,97.4
+KFC,Sarawak,Batang Lupar,18,75.45
+KFC,Sarawak,Sri Aman,1,26.57
+KFC,Sarawak,Lubok Antu,2,27.43
+KFC,Sarawak,Betong,1,26.03
+KFC,Sarawak,Saratok,1,26.48
+KFC,Sarawak,Tanjong Manis,6,37.79
+KFC,Sarawak,Igan,9,45.18
+KFC,Sarawak,Sarikei,1,26.09
+KFC,Sarawak,Julau,5,34.74
+KFC,Sarawak,Kanowit,17,68.03
+KFC,Sarawak,Lanang,8,43.63
+KFC,Sarawak,Sibu,9,46.42
+KFC,Sarawak,Mukah,1,27.16
+KFC,Sarawak,Selangau,17,67.06
+KFC,Sarawak,Kapit,1,26.31
+KFC,Sarawak,Hulu Rajang,1,26.12
+KFC,Sarawak,Bintulu,6,39.44
+KFC,Sarawak,Sibuti,11,52.01
+KFC,Sarawak,Miri,10,48.15
+KFC,Sarawak,Baram,4,36.54
+KFC,Sarawak,Limbang,1,27.12
+KFC,Sarawak,Lawas,1,27.51
+KFC,Selangor,Sabak Bernam,1,27.84
+KFC,Selangor,Sungai Besar,1,26.7
+KFC,Selangor,Hulu Selangor,8,45.04
+KFC,Selangor,Tanjong Karang,1,26.27
+KFC,Selangor,Kuala Selangor,2,27.9
+KFC,Selangor,Selayang,4,32.13
+KFC,Selangor,Gombak,2,28.9
+KFC,Selangor,Ampang,10,46.42
+KFC,Selangor,Pandan,7,37.92
+KFC,Selangor,Hulu Langat,1,26.14
+KFC,Selangor,Bangi,6,38.85
+KFC,Selangor,Puchong,11,49.13
+KFC,Selangor,Subang,12,50.78
+KFC,Selangor,Petaling Jaya,27,100.62
+KFC,Selangor,Damansara,39,133.44
+KFC,Selangor,Sungai Buloh,5,35.28
+KFC,Selangor,Shah Alam,30,104.21
+KFC,Selangor,Kapar,4,32.79
+KFC,Selangor,Klang,24,82.45
+KFC,Selangor,Kota Raja,15,58.37
+KFC,Selangor,Kuala Langat,6,37.73
+KFC,Selangor,Sepang,11,49.59
+KFC,Perlis,Padang Besar,1,23.87
+KFC,Perlis,Kangar,3,29.95
+KFC,Perlis,Arau,1,22.57
+KFC,Perlis,Padang Besar,1,23.87
+KFC,Perlis,Kangar,3,29.95
+KFC,Perlis,Arau,1,22.57
+KFC,Terengganu,Besut,1,22.56
+KFC,Terengganu,Setiu,1,22.44
+KFC,Terengganu,Kuala Nerus,9,42.09
+KFC,Terengganu,Kuala Terengganu,16,60.44
+KFC,Terengganu,Marang,9,40.69
+KFC,Terengganu,Hulu Terengganu,12,47.52
+KFC,Terengganu,Dungun,2,27.24
+KFC,Terengganu,Kemaman,3,29.64
+KFC,W.P. Kuala Lumpur,Kepong,10,49.19
+KFC,W.P. Kuala Lumpur,Batu,35,139.67
+KFC,W.P. Kuala Lumpur,Wangsa Maju,4,33.16
+KFC,W.P. Kuala Lumpur,Segambut,1,23.1
+KFC,W.P. Kuala Lumpur,Setiawangsa,2,28.73
+KFC,W.P. Kuala Lumpur,Titiwangsa,24,96.74
+KFC,W.P. Kuala Lumpur,Bukit Bintang,8,43.51
+KFC,W.P. Kuala Lumpur,Lembah Pantai,16,68.59
+KFC,W.P. Kuala Lumpur,Seputeh,17,74.43
+KFC,W.P. Kuala Lumpur,Cheras,9,49.03
+KFC,W.P. Kuala Lumpur,Bandar Tun Razak,20,85.15
+KFC,W.P. Kuala Lumpur,Kepong,10,49.19
+KFC,W.P. Kuala Lumpur,Batu,35,139.67
+KFC,W.P. Kuala Lumpur,Wangsa Maju,4,33.16
+KFC,W.P. Kuala Lumpur,Segambut,1,23.1
+KFC,W.P. Kuala Lumpur,Setiawangsa,2,28.73
+KFC,W.P. Kuala Lumpur,Titiwangsa,24,96.74
+KFC,W.P. Kuala Lumpur,Bukit Bintang,8,43.51
+KFC,W.P. Kuala Lumpur,Lembah Pantai,16,68.59
+KFC,W.P. Kuala Lumpur,Seputeh,17,74.43
+KFC,W.P. Kuala Lumpur,Cheras,9,49.03
+KFC,W.P. Kuala Lumpur,Bandar Tun Razak,20,85.15
+KFC,W.P. Labuan,Labuan,3,34.69
+KFC,W.P. Kuala Lumpur,Kepong,10,49.19
+KFC,W.P. Kuala Lumpur,Batu,35,139.67
+KFC,W.P. Kuala Lumpur,Wangsa Maju,4,33.16
+KFC,W.P. Kuala Lumpur,Segambut,1,23.1
+KFC,W.P. Kuala Lumpur,Setiawangsa,2,28.73
+KFC,W.P. Kuala Lumpur,Titiwangsa,24,96.74
+KFC,W.P. Kuala Lumpur,Bukit Bintang,8,43.51
+KFC,W.P. Kuala Lumpur,Lembah Pantai,16,68.59
+KFC,W.P. Kuala Lumpur,Seputeh,17,74.43
+KFC,W.P. Kuala Lumpur,Cheras,9,49.03
+KFC,W.P. Kuala Lumpur,Bandar Tun Razak,20,85.15
+KFC,W.P. Labuan,Labuan,3,34.69
+KFC,W.P. Putrajaya,Putrajaya,2,31.57

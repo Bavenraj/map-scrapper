@@ -1,8 +1,7 @@
 import csv
 
-filtered_rows = []
-
 def get_file(csv_file, fieldnames, state_to_scrape):
+    filtered_rows = []
     try:
         with open(csv_file, 'r', newline='', encoding='utf-8') as file:
             reader = csv.DictReader(file)
