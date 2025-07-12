@@ -4495,3 +4495,19 @@
 2025-07-12 17:19:30,438 - INFO - Combining Page Sources
 2025-07-12 17:19:30,439 - INFO - KFC near Putrajaya, W.P. Putrajaya: 2
 2025-07-12 17:19:30,441 - INFO - KFC data for W.P. Putrajaya was loaded into csv
+2025-07-12 17:25:51,812 - INFO - Initializing WebDriver
+2025-07-12 17:25:54,117 - INFO - Loading Google Maps
+2025-07-12 17:25:57,898 - INFO - Getting input search box
+2025-07-12 17:25:58,047 - INFO - Searching for W.P. Putrajaya:
+2025-07-12 17:26:05,321 - INFO - Looking for nearby location button
+2025-07-12 17:26:06,959 - INFO - Getting nearby location input search box 
+2025-07-12 17:26:07,168 - INFO - Searching for KFC near Putrajaya, W.P. Putrajaya:
+2025-07-12 17:26:14,656 - INFO - Looking for Searched Results
+2025-07-12 17:26:14,721 - INFO - Found. Scrolling search results list
+2025-07-12 17:26:17,800 - INFO - Total of 2 stores found at KFC near Putrajaya, W.P. Putrajaya 
+2025-07-12 17:26:19,318 - INFO - Extracting source of 2 stores
+2025-07-12 17:26:22,059 - INFO - Store: KFC Presint 15 completed.
+2025-07-12 17:26:23,898 - INFO - Store: KFC IOI City Mall Putrajaya completed.
+2025-07-12 17:26:25,226 - INFO - Combining Page Sources
+2025-07-12 17:26:25,229 - INFO - KFC near Putrajaya, W.P. Putrajaya: 2
+2025-07-12 17:26:25,231 - INFO - KFC data for W.P. Putrajaya was loaded into csv
