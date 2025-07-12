@@ -197,4 +197,4 @@ def start_scrape(store, state_list = area_to_scrape_dict):
     
 State = ["Perlis",	"Kedah", "Kelantan", "Terengganu", "Pulau Pinang", "Perak",	"Pahang", "Selangor", "Negeri Sembilan", "Melaka", "Johor", "Sabah", "Sarawak",	"W.P. Kuala Lumpur", "W.P. Putrajaya", "W.P. Labuan"]
 
-start_scrape('KFC', [ "W.P. Kuala Lumpur", "W.P. Putrajaya", "W.P. Labuan"])
+start_scrape('KFC', ["W.P. Putrajaya"])
