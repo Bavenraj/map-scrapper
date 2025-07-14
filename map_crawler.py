@@ -20,19 +20,22 @@ options.page_load_strategy = 'eager'
 driver = webdriver.Chrome(options=options)
 driver.maximize_window()
 
+fieldnames = ['Store', 'State', 'Area', 'Count', 'Duration']
+
 def load_map():
     logging.info("Loading Google Maps")
     driver.get("https://www.google.com/maps/@4.619127,108.9124153,6z?entry=ttu&g_ep=EgoyMDI1MDYxNy4wIKXMDSoASAFQAw%3D%3D")
     time.sleep(3)
 
-def find_state(query):
+def find_state(state):
     logging.info("Getting input search box")
     WebDriverWait(driver, 3).until(EC.presence_of_element_located((By.CLASS_NAME, 'searchboxinput')))
+        
     input = driver.find_element(by = By.CLASS_NAME, value = "searchboxinput")
     input.clear()
     
-    logging.info(f"Searching for {query}:")
-    input.send_keys(query, Keys.ENTER)
+    logging.info(f"Searching for {state}:")
+    input.send_keys(state, Keys.ENTER)
     time.sleep(3)
     driver.refresh()
     time.sleep(3) 
@@ -159,42 +162,51 @@ def scrape_result(driver, query):
     logging.info(f"{query}: {final_count}")
     return final_count
            
-def start_scrape(store, state_list = area_to_scrape_dict):
-    store_count = []
-    store_data = []
+def get_query(store, state_list = area_to_scrape_dict):
 
+    query_list = []
     file_name = f'dataset/list_of_{store}_by_area.csv'
-    fieldnames = ['Store', 'State', 'Area', 'Count', 'Duration']
-    csv_file = get_file(file_name, fieldnames, state_list)
     state_to_scrape = state_list
     filtered_dict = {}
     for state, areas in area_to_scrape_dict.items():
         if state in state_to_scrape:
             filtered_dict[state] = areas
-            
+    csv_file = get_file(file_name, fieldnames, filtered_dict)      
     for state, areas in filtered_dict.items():
         for area in areas:
+            query = f"{store} near {area}, {state}"
+            query_list.append(query)
+    return query_list, csv_file 
+
+def get_updated_query_list(query, query_list):
+    failed_at_index = query_list.index(query)
+    return query_list[failed_at_index:]
+
+def start_scrape(store, query_list, csv_file):
+    store_count = []
+    store_data = []
+    for query in query_list:
+        try:
+            #state = query.split(',', 1)
+            area = query.split('near', 1)
+            state = area[1].split(',', 1)
             start_time = time.perf_counter()
             load_map()
-            driverr = find_state(state)
-            query = f"{store} near {area}, {state}"
+            driverr = find_state(state[1])
             store_count.append(find_nearby_location(driver=driverr, query = query))
             end_time = time.perf_counter()
             scraping_duration = end_time - start_time
-
             data_link = {
                 'Store': store,
-                'State': state,
-                'Area' : area,
+                'State': state[1],
+                'Area' : area[1],
                 'Count': store_count[-1],
                 'Duration': round(scraping_duration, 2)
             }
             store_data.append(data_link) 
-            
-        write_file(csv_file, fieldnames, store_data)    
-        logging.info(f"{store} data for {state} was loaded into csv")
-    print(store_data)
-    
-State = ["Perlis",	"Kedah", "Kelantan", "Terengganu", "Pulau Pinang", "Perak",	"Pahang", "Selangor", "Negeri Sembilan", "Melaka", "Johor", "Sabah", "Sarawak",	"W.P. Kuala Lumpur", "W.P. Putrajaya", "W.P. Labuan"]
-
-start_scrape('KFC', ["W.P. Putrajaya"])
+                
+            write_file(csv_file, fieldnames, store_data)    
+            logging.info(f"{store} data for {state} was loaded into csv")
+        except Exception as e:
+            raise Exception(query)
+    #print(store_data)
