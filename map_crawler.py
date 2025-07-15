@@ -102,12 +102,8 @@ def scrape_results(driver, query):
         time.sleep(0.5)
         WebDriverWait(driver, 2).until(EC.element_to_be_clickable(result))
         result.click()
-        while True:
-            try:
-                WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.CLASS_NAME, "lfPIob")))
-                break
-            except TimeoutException:
-                pass
+        #removed while true loop
+        WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.CLASS_NAME, "lfPIob")))
         while True:          
             page_html = driver.page_source
             soup = BeautifulSoup(page_html, "html.parser")
@@ -140,12 +136,9 @@ def scrape_result(driver, query):
     logging.info("Result list not found. Only One Result available")
     time.sleep(2)
     logging.info("Extracting Page Source")
-    while True:
-        try:
-            WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.CLASS_NAME, "lfPIob")))
-            break
-        except TimeoutException:
-            pass
+    #removed while true loop
+    WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.CLASS_NAME, "lfPIob")))
+
     while True:          
         page_html = driver.page_source
         soup = BeautifulSoup(page_html, "html.parser")
@@ -179,15 +172,16 @@ def get_query(store, state_list = area_to_scrape_dict):
     return query_list, csv_file 
 
 def get_updated_query_list(query, query_list):
+    logging.info(f"Updating query list starting with failed query: {query}")
     failed_at_index = query_list.index(query)
     return query_list[failed_at_index:]
 
 def start_scrape(store, query_list, csv_file):
     store_count = []
-    store_data = []
+    
     for query in query_list:
+        store_data = []
         try:
-            #state = query.split(',', 1)
             area = query.split('near', 1)
             state = area[1].split(',', 1)
             start_time = time.perf_counter()
@@ -206,7 +200,7 @@ def start_scrape(store, query_list, csv_file):
             store_data.append(data_link) 
                 
             write_file(csv_file, fieldnames, store_data)    
-            logging.info(f"{store} data for {state} was loaded into csv")
+            logging.info(f"{store} data for {query} was loaded into csv")
         except Exception as e:
             raise Exception(query)
     #print(store_data)

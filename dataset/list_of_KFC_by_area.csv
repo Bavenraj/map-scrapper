@@ -1,2 +1,223 @@
 Store,State,Area,Count,Duration
-KFC, Perlis," Padang Besar, Perlis",1,31.26
+KFC, Johor," Segamat, Johor",3,41.72
+KFC, Johor," Sekijang, Johor",19,127.11
+KFC, Johor," Labis, Johor",1,25.98
+KFC, Johor," Pagoh, Johor",2,34.06
+KFC, Johor," Ledang, Johor",1,26.1
+KFC, Johor," Bakri, Johor",6,50.58
+KFC, Johor," Muar, Johor",8,61.69
+KFC, Johor," Parit Sulong, Johor",1,26.16
+KFC, Johor," Ayer Hitam, Johor",1,27.73
+KFC, Johor," Sri Gading, Johor",5,49.41
+KFC, Johor," Batu Pahat, Johor",6,278.97
+KFC, Johor," Simpang Renggam, Johor",1,27.8
+KFC, Johor," Kluang, Johor",7,51.86
+KFC, Johor," Sembrong, Johor",27,151.24
+KFC, Johor," Mersing, Johor",4,49.52
+KFC, Johor," Tenggara, Johor",1,24.73
+KFC, Johor," Kota Tinggi, Johor",4,47.14
+KFC, Johor," Pengerang, Johor",10,112.23
+KFC, Johor," Tebrau, Johor",6,93.87
+KFC, Johor," Pasir Gudang, Johor",5,46.11
+KFC, Johor," Johor Bahru, Johor",43,767.36
+KFC, Johor," Pulai, Johor",12,618.61
+KFC, Johor," Iskandar Puteri, Johor",5,35.61
+KFC, Johor," Kulai, Johor",7,37.99
+KFC, Johor," Pontian, Johor",3,30.69
+KFC, Johor," Tanjung Piai, Johor",8,40.87
+KFC, Kedah," Langkawi, Kedah",6,38.56
+KFC, Kedah," Jerlun, Kedah",1,22.4
+KFC, Kedah," Kubang Pasu, Kedah",5,34.97
+KFC, Kedah," Padang Terap, Kedah",10,47.72
+KFC, Kedah," Pokok Sena, Kedah",1,23.12
+KFC, Kedah," Alor Setar, Kedah",15,62.41
+KFC, Kedah," Kuala Kedah, Kedah",1,23.36
+KFC, Kedah," Pendang, Kedah",2,28.5
+KFC, Kedah," Jerai, Kedah",20,82.9
+KFC, Kedah," Sik, Kedah",1,22.82
+KFC, Kedah," Merbok, Kedah",9,46.87
+KFC, Kedah," Sungai Petani, Kedah",11,50.56
+KFC, Kedah," Baling, Kedah",1,22.8
+KFC, Kedah," Padang Serai, Kedah",1,22.84
+KFC, Kedah," Kulim-Bandar Baharu, Kedah",7,373.24
+KFC, Kelantan," Tumpat, Kelantan",1,23.24
+KFC, Kelantan," Pengkalan Chepa, Kelantan",12,52.62
+KFC, Kelantan," Kota Bharu, Kelantan",9,44.43
+KFC, Kelantan," Pasir Mas, Kelantan",1,23.15
+KFC, Kelantan," Rantau Panjang, Kelantan",2,35.18
+KFC, Kelantan," Kubang Kerian, Kelantan",1,25.14
+KFC, Kelantan," Bachok, Kelantan",2,35.38
+KFC, Kelantan," Ketereh, Kelantan",10,65.17
+KFC, Kelantan," Tanah Merah, Kelantan",1,25.79
+KFC, Kelantan," Pasir Puteh, Kelantan",1,23.73
+KFC, Kelantan," Machang, Kelantan",3,38.78
+KFC, Kelantan," Jeli, Kelantan",2,34.29
+KFC, Kelantan," Kuala Krai, Kelantan",3,39.89
+KFC, Kelantan," Gua Musang, Kelantan",1,26.02
+KFC, Melaka," Masjid Tanah, Melaka",2,39.71
+KFC, Melaka," Alor Gajah, Melaka",1,26.1
+KFC, Melaka," Tangga Batu, Melaka",16,115.49
+KFC, Melaka," Hang Tuah Jaya, Melaka",15,95.54
+KFC, Melaka," Kota Melaka, Melaka",19,119.51
+KFC, Melaka," Jasin, Melaka",3,47.09
+KFC, Negeri Sembilan," Jelebu, Negeri Sembilan",1,26.06
+KFC, Negeri Sembilan," Jempol, Negeri Sembilan",2,33.35
+KFC, Negeri Sembilan," Seremban, Negeri Sembilan",17,104.75
+KFC, Negeri Sembilan," Kuala Pilah, Negeri Sembilan",1,28.19
+KFC, Negeri Sembilan," Rasah, Negeri Sembilan",3,36.76
+KFC, Negeri Sembilan," Rembau, Negeri Sembilan",1,26.59
+KFC, Negeri Sembilan," Port Dickson, Negeri Sembilan",3,39.75
+KFC, Negeri Sembilan," Tampin, Negeri Sembilan",1,26.03
+KFC, Pahang," Cameron Highlands, Pahang",1,22.99
+KFC, Pahang," Lipis, Pahang",1,22.57
+KFC, Pahang," Raub, Pahang",2,27.97
+KFC, Pahang," Jerantut, Pahang",1,22.86
+KFC, Pahang," Indera Mahkota, Pahang",2,28.33
+KFC, Pahang," Kuantan, Pahang",17,63.36
+KFC, Pahang," Paya Besar, Pahang",1,23.16
+KFC, Pahang," Pekan, Pahang",2,28.74
+KFC, Pahang," Maran, Pahang",1,22.54
+KFC, Pahang," Kuala Krau, Pahang",11,48.9
+KFC, Pahang," Temerloh, Pahang",3,30.21
+KFC, Pahang," Bentong, Pahang",3,29.39
+KFC, Pahang," Bera, Pahang",13,52.87
+KFC, Pahang," Rompin, Pahang",1,22.91
+KFC, Perak," Gerik, Perak",1,22.71
+KFC, Perak," Lenggong, Perak",9,43.68
+KFC, Perak," Larut, Perak",7,38.68
+KFC, Perak," Parit Buntar, Perak",3,30.47
+KFC, Perak," Bagan Serai, Perak",1,22.7
+KFC, Perak," Bukit Gantang, Perak",19,73.07
+KFC, Perak," Taiping, Perak",6,36.75
+KFC, Perak," Padang Rengas, Perak",27,94.73
+KFC, Perak," Sungai Siput, Perak",1,27.07
+KFC, Perak," Tambun, Perak",1,22.18
+KFC, Perak," Ipoh Timor, Perak",14,58.26
+KFC, Perak," Ipoh Barat, Perak",17,66.79
+KFC, Perak," Batu Gajah, Perak",1,22.5
+KFC, Perak," Kuala Kangsar, Perak",2,29.2
+KFC, Perak," Beruas, Perak",1,22.22
+KFC, Perak," Parit, Perak",6,36.43
+KFC, Perak," Kampar, Perak",3,29.9
+KFC, Perak," Gopeng, Perak",2,27.76
+KFC, Perak," Tapah, Perak",2,27.72
+KFC, Perak," Pasir Salak, Perak",16,60.05
+KFC, Perak," Lumut, Perak",1,22.63
+KFC, Perak," Bagan Datuk, Perak",2,28.19
+KFC, Perak," Teluk Intan, Perak",2,28.0
+KFC, Perak," Tanjong Malim, Perak",2,28.52
+KFC, Perlis," Padang Besar, Perlis",1,22.61
+KFC, Perlis," Kangar, Perlis",3,30.87
+KFC, Perlis," Arau, Perlis",1,22.58
+KFC, Pulau Pinang," Kepala Batas, Pulau Pinang",3,30.3
+KFC, Pulau Pinang," Tasek Gelugor, Pulau Pinang",22,79.74
+KFC, Pulau Pinang," Bagan, Pulau Pinang",8,41.75
+KFC, Pulau Pinang," Permatang Pauh, Pulau Pinang",2,28.37
+KFC, Pulau Pinang," Bukit Mertajam, Pulau Pinang",10,45.94
+KFC, Pulau Pinang," Batu Kawan, Pulau Pinang",2,28.42
+KFC, Pulau Pinang," Nibong Tebal, Pulau Pinang",1,23.24
+KFC, Pulau Pinang," Bukit Bendera, Pulau Pinang",15,63.42
+KFC, Pulau Pinang," Tanjong, Pulau Pinang",2,29.16
+KFC, Pulau Pinang," Jelutong, Pulau Pinang",6,36.76
+KFC, Pulau Pinang," Bukit Gelugor, Pulau Pinang",1,23.5
+KFC, Pulau Pinang," Bayan Baru, Pulau Pinang",5,35.0
+KFC, Pulau Pinang," Balik Pulau, Pulau Pinang",2,28.28
+KFC, Sabah," Kudat, Sabah",1,22.56
+KFC, Sabah," Kota Marudu, Sabah",2,28.12
+KFC, Sabah," Kota Belud, Sabah",5,33.95
+KFC, Sabah," Tuaran, Sabah",4,32.66
+KFC, Sabah," Sepanggar, Sabah",2,28.68
+KFC, Sabah," Kota Kinabalu, Sabah",36,127.53
+KFC, Sabah," Putatan, Sabah",1,24.06
+KFC, Sabah," Penampang, Sabah",5,34.03
+KFC, Sabah," Papar, Sabah",3,29.93
+KFC, Sabah," Kimanis, Sabah",14,55.16
+KFC, Sabah," Beaufort, Sabah",1,22.82
+KFC, Sabah," Sipitang, Sabah",1,22.4
+KFC, Sabah," Ranau, Sabah",2,34.18
+KFC, Sabah," Keningau, Sabah",2,28.2
+KFC, Sabah," Tenom, Sabah",1,22.51
+KFC, Sabah," Pensiangan, Sabah",24,85.95
+KFC, Sabah," Beluran, Sabah",2,27.25
+KFC, Sabah," Libaran, Sabah",1,22.52
+KFC, Sabah," Batu Sapi, Sabah",19,72.13
+KFC, Sabah," Sandakan, Sabah",6,36.82
+KFC, Sabah," Kinabatangan, Sabah",2,27.53
+KFC, Sabah," Lahad Datu, Sabah",4,31.68
+KFC, Sabah," Semporna, Sabah",2,28.19
+KFC, Sabah," Tawau, Sabah",10,46.48
+KFC, Sabah," Kalabakan, Sabah",19,73.48
+KFC, Sarawak," Mas Gading, Sarawak",23,88.39
+KFC, Sarawak," Santubong, Sarawak",22,79.43
+KFC, Sarawak," Petra Jaya, Sarawak",3,31.33
+KFC, Sarawak," Bandar Kuching, Sarawak",18,70.32
+KFC, Sarawak," Stampin, Sarawak",27,96.48
+KFC, Sarawak," Kota Samarahan, Sarawak",4,32.27
+KFC, Sarawak," Puncak Borneo, Sarawak",21,78.11
+KFC, Sarawak," Serian, Sarawak",3,29.87
+KFC, Sarawak," Batang Sadong, Sarawak",24,86.66
+KFC, Sarawak," Batang Lupar, Sarawak",17,66.05
+KFC, Sarawak," Sri Aman, Sarawak",1,22.75
+KFC, Sarawak," Lubok Antu, Sarawak",2,27.66
+KFC, Sarawak," Betong, Sarawak",1,24.14
+KFC, Sarawak," Saratok, Sarawak",1,22.26
+KFC, Sarawak," Tanjong Manis, Sarawak",8,41.14
+KFC, Sarawak," Igan, Sarawak",12,50.48
+KFC, Sarawak," Sarikei, Sarawak",1,22.57
+KFC, Sarawak," Julau, Sarawak",5,34.84
+KFC, Sarawak," Kanowit, Sarawak",17,67.08
+KFC, Sarawak," Lanang, Sarawak",9,43.49
+KFC, Sarawak," Sibu, Sarawak",10,46.42
+KFC, Sarawak," Mukah, Sarawak",1,22.58
+KFC, Sarawak," Selangau, Sarawak",18,69.07
+KFC, Sarawak," Kapit, Sarawak",1,22.64
+KFC, Sarawak," Hulu Rajang, Sarawak",1,22.59
+KFC, Sarawak," Bintulu, Sarawak",6,36.53
+KFC, Sarawak," Sibuti, Sarawak",20,76.31
+KFC, Sarawak," Miri, Sarawak",10,46.28
+KFC, Sarawak," Baram, Sarawak",8,42.7
+KFC, Sarawak," Limbang, Sarawak",1,22.3
+KFC, Sarawak," Lawas, Sarawak",1,22.49
+KFC, Selangor," Sabak Bernam, Selangor",1,22.67
+KFC, Selangor," Sungai Besar, Selangor",1,23.02
+KFC, Selangor," Hulu Selangor, Selangor",8,42.26
+KFC, Selangor," Tanjong Karang, Selangor",1,22.61
+KFC, Selangor," Kuala Selangor, Selangor",2,29.24
+KFC, Selangor," Selayang, Selangor",4,32.7
+KFC, Selangor," Gombak, Selangor",2,28.72
+KFC, Selangor," Ampang, Selangor",9,44.98
+KFC, Selangor," Pandan, Selangor",8,41.27
+KFC, Selangor," Hulu Langat, Selangor",1,22.71
+KFC, Selangor," Bangi, Selangor",6,38.46
+KFC, Selangor," Puchong, Selangor",11,49.11
+KFC, Selangor," Subang, Selangor",11,49.17
+KFC, Selangor," Petaling Jaya, Selangor",29,113.75
+KFC, Selangor," Damansara, Selangor",15,60.07
+KFC, Selangor," Sungai Buloh, Selangor",5,36.69
+KFC, Selangor," Shah Alam, Selangor",31,113.74
+KFC, Selangor," Kapar, Selangor",4,32.87
+KFC, Selangor," Klang, Selangor",27,97.31
+KFC, Selangor," Kota Raja, Selangor",16,60.96
+KFC, Selangor," Kuala Langat, Selangor",4,35.33
+KFC, Selangor," Sepang, Selangor",12,51.88
+KFC, Terengganu," Besut, Terengganu",1,23.62
+KFC, Terengganu," Setiu, Terengganu",1,22.57
+KFC, Terengganu," Kuala Nerus, Terengganu",11,47.88
+KFC, Terengganu," Kuala Terengganu, Terengganu",13,52.19
+KFC, Terengganu," Marang, Terengganu",10,43.19
+KFC, Terengganu," Hulu Terengganu, Terengganu",12,48.98
+KFC, Terengganu," Dungun, Terengganu",2,27.08
+KFC, Terengganu," Kemaman, Terengganu",3,29.75
+KFC, W.P. Kuala Lumpur," Kepong, W.P. Kuala Lumpur",9,46.93
+KFC, W.P. Kuala Lumpur," Batu, W.P. Kuala Lumpur",32,124.81
+KFC, W.P. Kuala Lumpur," Wangsa Maju, W.P. Kuala Lumpur",4,34.55
+KFC, W.P. Kuala Lumpur," Segambut, W.P. Kuala Lumpur",1,23.05
+KFC, W.P. Kuala Lumpur," Setiawangsa, W.P. Kuala Lumpur",2,29.32
+KFC, W.P. Kuala Lumpur," Titiwangsa, W.P. Kuala Lumpur",24,91.15
+KFC, W.P. Kuala Lumpur," Bukit Bintang, W.P. Kuala Lumpur",8,41.57
+KFC, W.P. Kuala Lumpur," Lembah Pantai, W.P. Kuala Lumpur",19,79.17
+KFC, W.P. Kuala Lumpur," Seputeh, W.P. Kuala Lumpur",19,95.52
+KFC, W.P. Kuala Lumpur," Cheras, W.P. Kuala Lumpur",8,64.63
+KFC, W.P. Kuala Lumpur," Bandar Tun Razak, W.P. Kuala Lumpur",19,108.91
+KFC, W.P. Labuan," Labuan, W.P. Labuan",3,39.93
+KFC, W.P. Putrajaya," Putrajaya, W.P. Putrajaya",2,37.91
