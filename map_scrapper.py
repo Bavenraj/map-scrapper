@@ -3,8 +3,6 @@ from area_to_scrape import area_to_scrape_dict
 import logging
 from file_modifier import get_file, write_file
 
-logging.basicConfig(filename="log/map_scrapper.log", encoding="utf-8", filemode="a",
-                    level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 def extract_source(store, state_list = area_to_scrape_dict):
     file_name = f'dataset/scraped_{store}_data.csv'
@@ -61,8 +59,8 @@ def extract_data(store, state, area):
             logging.info(f'Store: {name} completed.')
                 
     else: 
-        logging.info(f'Total of {len(store_list)} {store} store found')
-        logging.info(f'Extracting data of {len(store_list)} store')
+        logging.info(f'Total of 1 {store} store found')
+        logging.info(f'Extracting data of 1 store')
         name = soup.find(name= "h1")
         address = soup.find(name= 'button', attrs={"data-item-id": "address"})['aria-label']
         if soup.find(string='Open') or soup.find(string='Closed') or soup.find(string='Open 24 hours'):
@@ -90,7 +88,7 @@ def extract_data(store, state, area):
             'Review Count': review,
             'Store Status': store_status 
         })
-        logging.info(f'Store: {name} completed.')
+        logging.info(f'Store: {name.text} completed.')
     return store_data
 
-extract_source('KFC', ["W.P. Labuan"])
+#extract_source('KFC', ["W.P. Labuan"])

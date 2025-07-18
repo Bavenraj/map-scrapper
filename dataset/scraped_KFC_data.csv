@@ -1,4 +1,189 @@
 State,Area,Address,Store Name,Rating,Review Count,Store Status
-W.P. Labuan,Labuan,"Address: U0183, Jalan Merdeka, Bandar Labuan, 87000 Victoria, Labuan Federal Territory ",KFC Labuan 1,4.1,(791),Operating
-W.P. Labuan,Labuan,"Address: Lot C19 (Corner Lot), Jalan Kemajuan/Ujong Pasir, 87000, Labuan Federal Territory ","KFC Utama Jaya, Labuan 3",4.1,(702),Operating
-W.P. Labuan,Labuan,"Address: Lot C003 & D002, Ground Floor, Podium Level, Financial Park, Labuan Complex, 87000, Labuan Federal Territory ","KFC Financial Park, Labuan",4.1,(226),Operating
+Johor,Segamat,"Address: No. 45, Ground Floor, One Segamat, Jln Kolam Air, Kampung Gubah, 85000 Segamat, Johor Darul Ta'zim ",KFC One Segamat,3.8,(154),Operating
+Johor,Segamat,"Address: Lot 2690, Lbh Persiaran Tun Khalil Yaakob, Kampung Rasau, 85000 Segamat, Johor Darul Ta'zim ",KFC Segamat DT,3.9,(876),Operating
+Johor,Segamat,"Address: 150 & 151, Jalan Sia Her Yam, Kampung Abdullah, 85000 Segamat, Johor Darul Ta'zim ",KFC Segamat,4.0,"(1,022)",Operating
+Johor,Sekijang,"Address: PTB 23183, Mukim, Jalan Sungai Chat, Sri Gelam, 80100 Johor Bahru, Johor ",KFC Seri Gelam DT,3.9,"(1,922)",Operating
+Johor,Sekijang,"Address: Lot Zone C01, 03A Sultan Ibrahim Stadium, Jln Gelang Patah, 79100 Iskandar, Johor ",KFC STADIUM JDT,4.6,(195),No status
+Johor,Sekijang,"Address: 96, Jalan Dedap 4, Taman Johor Jaya, 81100 Johor Bahru, Johor Darul Ta'zim ",KFC Johor Jaya,3.4,(431),Operating
+Johor,Sekijang,"Address: Sebahagian PTB 23174, Jalan Ibrahim Sultan, Mukim Bandar, 80300 Johor Bahru, Johor ",KFC Stulang Laut,4.1,"(3,214)",Operating
+Johor,Sekijang,"Address: Lot 2690, Lbh Persiaran Tun Khalil Yaakob, Kampung Rasau, 85000 Segamat, Johor Darul Ta'zim ",KFC Segamat DT,3.9,(876),Operating
+Johor,Sekijang,"Address: 150 & 151, Jalan Sia Her Yam, Kampung Abdullah, 85000 Segamat, Johor Darul Ta'zim ",KFC Segamat,4.0,"(1,022)",Operating
+Johor,Sekijang,"Address: Lot PTD 113519, Taman Puteri Wangsa, 81800 Johor Bahru, Johor ",KFC Puteri Wangsa DT,4.0,"(1,524)",Operating
+Johor,Sekijang,"Address: Jb Sentral, Lot 3 & 7 Main, 80000 Johor Bharu, Johor ",KFC JB Sentral,2.5,(267),Operating
+Johor,Sekijang,"Address: PTD 210469, Bandar Seri Alam, 81700 Johor Bahru, Johor ",KFC Seri Alam DT,3.7,"(1,384)",Operating
+Johor,Sekijang,"Address: 5, Persiaran Jaya 1, Mutiara Rini, 81000 Skudai, Johor Darul Ta'zim ",KFC Mutiara Rini DT,3.7,"(1,703)",Operating
+Johor,Sekijang,"Address: No. 45, Ground Floor, One Segamat, Jln Kolam Air, Kampung Gubah, 85000 Segamat, Johor Darul Ta'zim ",KFC One Segamat,3.8,(154),Operating
+Johor,Sekijang,"Address: Lot 126, Jln Segamat, Taman Bintang Jaya, 85300 Labis, Johor Darul Ta'zim ",KFC Labis,3.9,(573),Operating
+Johor,Sekijang,"Address: Plaza Angsana, Lot L1.28a & L1.29, Skudai Hwy, Pusat Bandar Tampoi, 81200 Johor Bahru, Johor ",KFC Plaza Angsana,4.3,(348),Operating
+Johor,Sekijang,"Address: 39-G & 39-1, Jalan Muar, Kampung Bahru, 85200 Jementah, Johor Darul Ta'zim ",KFC Jementah,3.9,(335),No status
+Johor,Sekijang,"Address: Lot J22 - J23 Level 3, City Square, Jalan Wong Ah Fook, Bandar Johor Bahru, 80300 Johor Bahru, Johor ",KFC City Square,2.4,(328),Operating
+Johor,Sekijang,"Address: 213D & 213E, Jalan Payamas, Kampung Padang Lalang, 89000 Tangkak, Johor Darul Ta'zim ",KFC Tangkak,3.9,(822),Operating
+Johor,Sekijang,"Address: 4, Jln Gambir 5, Bandar Baru Bukit Gambar, 84800 Muar, Johor Darul Ta'zim ",KFC Bukit Gambir,4.1,(658),Operating
+Johor,Sekijang,"Address: No. 1, 1A, 1B, Jalan Persiaran Cempaka, Taman Bunga Cempaka Biru, 86400 Parit Raja, Johor ",KFC Parit Raja,4.0,(918),No status
+Johor,Sekijang,"Address: No. 98, Jalan Segamat, 85300, Johor, 85300 ","KFC @ Labis, Johor",,,No status
+Johor,Labis,"Address: Lot 126, Jln Segamat, Taman Bintang Jaya, 85300 Labis, Johor Darul Ta'zim ",KFC Labis,3.9,(573),Operating
+Johor,Pagoh,"Address: Kawasan Rehat Dan Rawat Pagoh Aras Selatan, KM 135.5, North-South Expy, 84600 Muar, Johor ",KFC RSA Pagoh,4.0,(741),Operating
+Johor,Pagoh,"Address: No. PTD 17338 HS(D) 40911 Bandar Universiti Pagoh, 84500 Bukit Pasir, Johor Darul Ta'zim ",KFC Bandar Universiti Pagoh DT,4.1,(311),Operating
+Johor,Ledang,"Address: 213D & 213E, Jalan Payamas, Kampung Padang Lalang, 89000 Tangkak, Johor Darul Ta'zim ",KFC Tangkak,3.9,(822),Operating
+Johor,Bakri,"Address: Ground, First & Second Floor, No. 23-1, Jalan Arab, Pekan Muar, 84000 Muar, Johor ",KFC Muar 1,3.8,(627),Operating
+Johor,Bakri,"Address: Ground & First Floors, Plaza LLY, Jln Salleh, Taman Sri Emas, 84000 Muar, Johor ",KFC Muar 2,3.9,(836),Operating
+Johor,Bakri,"Address: 3 Jalan Perdagangan Pekan Bukit Pasir, 83000 Muar, Johor ",KFC Pekan Bukit Pasir Muar,4.0,(710),Operating
+Johor,Bakri,"Address: Lot No. 3153, Nafas Mall, Jalan Kesang, 84000 Muar, Johor ",KFC K Mart Muar,4.1,(472),No status
+Johor,Bakri,"Address: LOT G26 & G27, GIANT HYPERMARKET MUAR, Jalan Kesang, Kawasan Perindustrian Tanjung Agas, 84000 Muar, Johor ",KFC NSK Muar,3.6,(253),Operating
+Johor,Bakri,"Address: No. PTD 17338 HS(D) 40911 Bandar Universiti Pagoh, 84500 Bukit Pasir, Johor Darul Ta'zim ",KFC Bandar Universiti Pagoh DT,4.1,(311),Operating
+Johor,Muar,"Address: Ground & First Floors, Plaza LLY, Jln Salleh, Taman Sri Emas, 84000 Muar, Johor ",KFC Muar 2,3.9,(836),Operating
+Johor,Muar,"Address: Ground, First & Second Floor, No. 23-1, Jalan Arab, Pekan Muar, 84000 Muar, Johor ",KFC Muar 1,3.8,(627),Operating
+Johor,Muar,"Address: Lot No. 3153, Nafas Mall, Jalan Kesang, 84000 Muar, Johor ",KFC K Mart Muar,4.1,(472),No status
+Johor,Muar,"Address: 3 Jalan Perdagangan Pekan Bukit Pasir, 83000 Muar, Johor ",KFC Pekan Bukit Pasir Muar,4.0,(710),Operating
+Johor,Muar,"Address: No. PTD 17338 HS(D) 40911 Bandar Universiti Pagoh, 84500 Bukit Pasir, Johor Darul Ta'zim ",KFC Bandar Universiti Pagoh DT,4.1,(311),Operating
+Johor,Muar,"Address: Kawasan Rehat Dan Rawat Pagoh Aras Selatan, KM 135.5, North-South Expy, 84600 Muar, Johor ",KFC RSA Pagoh,4.0,(741),Operating
+Johor,Muar,"Address: LOT G26 & G27, GIANT HYPERMARKET MUAR, Jalan Kesang, Kawasan Perindustrian Tanjung Agas, 84000 Muar, Johor ",KFC NSK Muar,3.6,(253),Operating
+Johor,Muar,"Address: 4, Jln Gambir 5, Bandar Baru Bukit Gambar, 84800 Muar, Johor Darul Ta'zim ",KFC Bukit Gambir,4.1,(658),Operating
+Johor,Parit Sulong,"Address: 2, Jalan Siakap, Parit Sulong, 83500 Parit Sulong, Johor ",KFC Parit Sulong,4.0,(317),Operating
+Johor,Ayer Hitam,"Address: No. 1 & 2, Jln Bandar Baru 1, 86100 Ayer Hitam, Johor Darul Ta'zim ",KFC Bandar Baru Ayer Hitam Johor,4.0,(946),Operating
+Johor,Sri Gading,"Address: Lot 6559, Shell, Batu 11, Jln Kluang, Mukim Sri Gading, 86400 Parit Raja, Johor ",KFC Shell Parit Raja,3.9,(606),Operating
+Johor,Sri Gading,"Address: Lot PTD 55587, Jalan Murni 1, Taman Murni, 83000 Batu Pahat, Johor ",KFC Batu Pahat DT,3.9,(936),Operating
+Johor,Sri Gading,"Address: 75, Jalan Rugayah, Kampung Pegawai, 83000 Batu Pahat, Johor Darul Ta'zim ",KFC Batu Pahat 1,4.2,(963),Operating
+Johor,Sri Gading,"Address: 2, Jalan Siakap, Parit Sulong, 83500 Parit Sulong, Johor ",KFC Parit Sulong,4.0,(317),Operating
+Johor,Sri Gading,"Address: 2, Jalan Kundang 1, Taman Bukit Pasir, 83000 Batu Pahat, Johor Darul Ta'zim ","KFC Bukit Pasir, BP3",3.9,(603),Operating
+Johor,Batu Pahat,"Address: Lot PTD 55587, Jalan Murni 1, Taman Murni, 83000 Batu Pahat, Johor ",KFC Batu Pahat DT,3.9,(936),Operating
+Johor,Batu Pahat,"Address: 75, Jalan Rugayah, Kampung Pegawai, 83000 Batu Pahat, Johor Darul Ta'zim ",KFC Batu Pahat 1,4.2,(963),Operating
+Johor,Batu Pahat,"Address: Lot F1.07, 1B, Jalan Persiaran Flora Utama, Taman Flora Utama, 83000 Batu Pahat, Johor ",KFC AEON Big Batu Pahat,4.2,(338),Operating
+Johor,Batu Pahat,"Address: No. C-1, Riverside Business Park, Jalan Komersil Pantai 5, Taman Pantai, 83000 Batu Pahat, Johor ",KFC Riverside Business Park,4.3,(270),Operating
+Johor,Batu Pahat,"Address: 2, Jalan Kundang 1, Taman Bukit Pasir, 83000 Batu Pahat, Johor Darul Ta'zim ","KFC Bukit Pasir, BP3",3.9,(603),Operating
+Johor,Batu Pahat,"Address: 3-1, Jalan Timun, Taman Anggerik, Tongkang Pechah, 83000 Batu Pahat, Johor ",KFC Tongkang Pechah,3.8,(136),Operating
+Johor,Simpang Renggam,"Address: Shell Gas Station, 794, GM 399, Mukim Renggam, Daerah Kluang, 86200 Simpang Renggam, Johor ",KFC Shell Simpang Renggam DT,4.1,(828),Operating
+Johor,Kluang,"Address: 15, Jalan Dato Haji Hassan, Yunos, 86000 Kluang, Johor Darul Ta'zim ",KFC Kluang 1,4.0,(865),Operating
+Johor,Kluang,"Address: 91, 86000 Kluang, Johor ",KFC SERI IMPIAN KLUANG DT,3.8,(567),Operating
+Johor,Kluang,"Address: 31, Jalan Intan 2/1, Taman Intan, 86000 Kluang, Johor Darul Ta'zim ",KFC Kluang 2,3.9,(422),Operating
+Johor,Kluang,"Address: Lot LG-09, & LG-10, Kluang Mall, Jln Rambutan, Taman Suria, 86000 Kluang, Johor ",KFC Kluang Mall 2,4.0,(409),Operating
+Johor,Kluang,"Address: K1-5, Ground Floor, Kluang Parade, Jln Sentol, Kampung Masjid Lama, 86000 Kluang, Johor ",KFC Kluang Parade,4.4,(126),No status
+Johor,Kluang,"Address: Shell Gas Station, 794, GM 399, Mukim Renggam, Daerah Kluang, 86200 Simpang Renggam, Johor ",KFC Shell Simpang Renggam DT,4.1,(828),Operating
+Johor,Kluang,"Address: Kawasan Pembangunan, Lot 11 & 13 (Ground Floor), Jalan Ciku Jalan Ciku, Jln Haji Manan, 86000 Kluang, Johor ",KFC Versis Kluang,3.8,(83),No status
+Johor,Sembrong,"Address: 91, 86000 Kluang, Johor ",KFC SERI IMPIAN KLUANG DT,3.8,(567),Operating
+Johor,Sembrong,"Address: Shell Gas Station, 794, GM 399, Mukim Renggam, Daerah Kluang, 86200 Simpang Renggam, Johor ",KFC Shell Simpang Renggam DT,4.1,(828),Operating
+Johor,Sembrong,"Address: 15, Jalan Dato Haji Hassan, Yunos, 86000 Kluang, Johor Darul Ta'zim ",KFC Kluang 1,4.0,(865),Operating
+Johor,Sembrong,"Address: 31, Jalan Intan 2/1, Taman Intan, 86000 Kluang, Johor Darul Ta'zim ",KFC Kluang 2,3.9,(422),Operating
+Johor,Sembrong,"Address: Kawasan Pembangunan, Lot 11 & 13 (Ground Floor), Jalan Ciku Jalan Ciku, Jln Haji Manan, 86000 Kluang, Johor ",KFC Versis Kluang,3.8,(83),No status
+Johor,Sembrong,"Address: K1-5, Ground Floor, Kluang Parade, Jln Sentol, Kampung Masjid Lama, 86000 Kluang, Johor ",KFC Kluang Parade,4.4,(126),No status
+Johor,Sembrong,"Address: Lot LG-09, & LG-10, Kluang Mall, Jln Rambutan, Taman Suria, 86000 Kluang, Johor ",KFC Kluang Mall 2,4.0,(409),Operating
+Johor,Sembrong,"Address: No. 1 & 2, Jln Bandar Baru 1, 86100 Ayer Hitam, Johor Darul Ta'zim ",KFC Bandar Baru Ayer Hitam Johor,4.0,(946),Operating
+Johor,Sembrong,"Address: Lot 42, 43, Jalan 4/1, Taman Anggerik, 81440 Bandar Tenggara, Johor ",KFC Bandar Tenggara,3.8,(836),Operating
+Johor,Sembrong,"Address: Lot Zone C01, 03A Sultan Ibrahim Stadium, Jln Gelang Patah, 79100 Iskandar, Johor ",KFC STADIUM JDT,4.6,(195),No status
+Johor,Sembrong,"Address: Sebahagian PTB 23174, Jalan Ibrahim Sultan, Mukim Bandar, 80300 Johor Bahru, Johor ",KFC Stulang Laut,4.1,"(3,214)",Operating
+Johor,Sembrong,"Address: No. 119 & 120, Jln Besar, Taman Selatan, 83700 Yong Peng, Johor Darul Ta'zim ",KFC Yong Peng,3.9,(966),Operating
+Johor,Sembrong,"Address: 6, Jalan Setia Tropika 1/21, Taman Setia Tropika, 81200 Johor Bahru, Johor Darul Ta'zim ",KFC Setia Tropika DT,3.5,"(1,449)",Operating
+Johor,Sembrong,"Address: PTD 210469, Bandar Seri Alam, 81700 Johor Bahru, Johor ",KFC Seri Alam DT,3.7,"(1,384)",Operating
+Johor,Sembrong,"Address: Lot H.S (D) 23569, PTD 8797, Mukim Senai, Daerah Kulai Jaya, 81400 Johor Bahru, Johor ",KFC Petronas Senai Airport DT,3.6,(381),Operating
+Johor,Sembrong,"Address: Plaza Angsana, Lot L1.28a & L1.29, Skudai Hwy, Pusat Bandar Tampoi, 81200 Johor Bahru, Johor ",KFC Plaza Angsana,4.3,(348),Operating
+Johor,Sembrong,"Address: Jb Sentral, Lot 3 & 7 Main, 80000 Johor Bharu, Johor ",KFC JB Sentral,2.5,(267),Operating
+Johor,Sembrong,"Address: Lot No. 4F51 & 52, Paradigm Mall, Skudai Hwy, 81200 Johor Bahru, Johor ",KFC Paradigm Mall,2.5,(251),Operating
+Johor,Sembrong,"Address: Lot 6559, Shell, Batu 11, Jln Kluang, Mukim Sri Gading, 86400 Parit Raja, Johor ",KFC Shell Parit Raja,3.9,(606),Operating
+Johor,Sembrong,"Address: 66, Jalan Perwira 1, Taman Ungku Tun Aminah, 81300 Skudai, Johor Darul Ta'zim ",KFC Tun Aminah,3.7,(772),Operating
+Johor,Sembrong,"Address: Lot HS (D) 176907 (PTD 44992, Taman Universiti, 81300 Johor Bahru, Johor Darul Ta'zim ",KFC Petronas Taman University DT,3.6,(871),Operating
+Johor,Sembrong,"Address: Lot 413, Jalan Tampoi, Taman Damansara Aliff, 81200 Johor Bahru, Johor Darul Ta'zim ",KFC Damansara Aliff DT,4.0,"(1,469)",Operating
+Johor,Sembrong,"Address: Lot 126, Jln Segamat, Taman Bintang Jaya, 85300 Labis, Johor Darul Ta'zim ",KFC Labis,3.9,(573),Operating
+Johor,Sembrong,"Address: 37, Jalan Abu Bakar, Mersing Kechil, 86800 Mersing, Johor Darul Ta'zim ",KFC Mersing,4.1,"(1,295)",Operating
+Johor,Sembrong,"Address: Lot PTD 55587, Jalan Murni 1, Taman Murni, 83000 Batu Pahat, Johor ",KFC Batu Pahat DT,3.9,(936),Operating
+Johor,Sembrong,"Address: Lot J22 - J23 Level 3, City Square, Jalan Wong Ah Fook, Bandar Johor Bahru, 80300 Johor Bahru, Johor ",KFC City Square,2.4,(328),Operating
+Johor,Sembrong,"Address: No. 17-G, 17-1 & 17-2, Jalan Mutiara 2 Pusat Perniagaan Benut Benut, 82200 Pontian, Johor ",KFC Benut,3.7,(182),Operating
+Johor,Mersing,"Address: 37, Jalan Abu Bakar, Mersing Kechil, 86800 Mersing, Johor Darul Ta'zim ",KFC Mersing,4.1,"(1,295)",Operating
+Johor,Mersing,"Address: Lot W1 & W2, Kompleks Perniagaan Mersing, R9-R23, Habour Centre, 86800 Mersing, Johor ",KFC MERSING HARBOUR DT,3.3,(24),No status
+Johor,Mersing,"Address: 62, Jalan Sulaiman, Bandar Tepian Sungai, 86800 Mersing, Johor Darul Ta'zim ",Marrybrown Fried Chicken,3.6,(59),Operating
+Johor,Mersing,"Address: Lot 154, Terminal Ferry Tanjung Leman, 86800 Tanjung Leman, 86810 Mersing, Johor ",KFC Tanjung Leman Kiosk,4.1,(325),No status
+Johor,Tenggara,"Address: Lot 42, 43, Jalan 4/1, Taman Anggerik, 81440 Bandar Tenggara, Johor ",KFC Bandar Tenggara,3.8,(836),Operating
+Johor,Kota Tinggi,"Address: 91, 86000 Kluang, Johor ",KFC SERI IMPIAN KLUANG DT,3.8,(567),No status
+Johor,Kota Tinggi,"Address: Ground & First Floor, 37, Jalan Mawai, Bandar Kota Tinggi, 81900 Kota Tinggi, Johor Darul Ta'zim ",KFC Kota Tinggi,3.9,(779),Operating
+Johor,Kota Tinggi,"Address: Lot 42, 43, Jalan 4/1, Taman Anggerik, 81440 Bandar Tenggara, Johor ",KFC Bandar Tenggara,3.8,(836),No status
+Johor,Kota Tinggi,"Address: KIP Mart, Lot DC01, FC001 & FC002, Jalan Maju, Taman Mawai Jaya, 81900 Kota Tinggi, Johor Darul Ta'zim ",KFC KIP Mart Kota Tinggi,3.2,(22),No status
+Johor,Pengerang,"Address: 95, Jalan Jelutong 1 Taman Desaru Utama Bandar Penawar, 81930 Kota Tinggi, Johor Darul Ta'zim ",KFC Desaru,3.7,"(1,251)",No status
+Johor,Pengerang,"Address: Sebahagian PTB 23174, Jalan Ibrahim Sultan, Mukim Bandar, 80300 Johor Bahru, Johor ",KFC Stulang Laut,4.1,"(3,214)",Operating
+Johor,Pengerang,"Address: Ground & First Floor, 37, Jalan Mawai, Bandar Kota Tinggi, 81900 Kota Tinggi, Johor Darul Ta'zim ",KFC Kota Tinggi,3.9,(779),Operating
+Johor,Pengerang,"Address: PTB 23183, Mukim, Jalan Sungai Chat, Sri Gelam, 80100 Johor Bahru, Johor ",KFC Seri Gelam DT,3.9,"(1,922)",Operating
+Johor,Pengerang,"Address: Lot No PTD 171205 Bandar Dato Onn Mukim, 81100 Johor Bahru, Johor Darul Ta'zim ",KFC Petron Dato Onn DT,3.4,(625),No status
+Johor,Pengerang,"Address: 96, Jalan Dedap 4, Taman Johor Jaya, 81100 Johor Bahru, Johor Darul Ta'zim ",KFC Johor Jaya,3.4,(431),No status
+Johor,Pengerang,"Address: Lot 590, 591, Persisiran Perling, Taman Perling, 81200 Johor Bahru, Johor ",KFC Taman Perling DT,3.7,"(1,792)",Operating
+Johor,Pengerang,"Address: PTD 210469, Bandar Seri Alam, 81700 Johor Bahru, Johor ",KFC Seri Alam DT,3.7,"(1,384)",Operating
+Johor,Pengerang,"Address: HS(D, Petron Sungai Rengit, Jalan Besar, Sungai Rengit, Lot PTB 69, 33210, Mukim, Daerah, 81600 Pengerang, Johor Darul Ta'zim ",KFC PETRON PENGERANG,3.5,(478),No status
+Johor,Pengerang,"Address: 91 & 92, Jln Besar, Rengit, 83100 Rengit, Johor Darul Ta'zim ",KFC Rengit,3.9,(409),No status
+Johor,Tebrau,"Address: Lot PTD 113519, Taman Puteri Wangsa, 81800 Johor Bahru, Johor ",KFC Puteri Wangsa DT,4.0,"(1,524)",Operating
+Johor,Tebrau,"Address: Lot L2-108, Level 2, Toppen Shopping Centre, Taman Desa Tebrau, 81100 Johor Bahru, Johor ",KFC Toppen Mall,2.3,(92),No status
+Johor,Tebrau,"Address: Sebahagian PTB 23174, Jalan Ibrahim Sultan, Mukim Bandar, 80300 Johor Bahru, Johor ",KFC Stulang Laut,4.1,"(3,214)",Operating
+Johor,Tebrau,"Address: 96, Jalan Dedap 4, Taman Johor Jaya, 81100 Johor Bahru, Johor Darul Ta'zim ",KFC Johor Jaya,3.4,(431),No status
+Johor,Tebrau,"Address: Lot No PTD 171205 Bandar Dato Onn Mukim, 81100 Johor Bahru, Johor Darul Ta'zim ",KFC Petron Dato Onn DT,3.4,(625),No status
+Johor,Tebrau,"Address: Lot S-45, 2nd Floor, Aeon Tebrau City Shopping Centre, Persiaran Desa Tebrau, Taman Desa Tebrau, 81100 Johor Bahru, Johor ",KFC AEON Tebrau City,2.5,(262),No status
+Johor,Pasir Gudang,"Address: Plot 1, Block C, Jalan, Persiaran Dahlia 2, Taman Bukit Dahlia, 81200 Pasir Gudang, Johor ",KFC Pasir Gudang DT,3.8,"(1,427)",Operating
+Johor,Pasir Gudang,"Address: Level 3-27B, Level 3, Kompleks Pusat Bandar, Kawasan Perindustrian Pasir Gudang, 81200 Pasir Gudang, Johor ",KFC Pasir Gudang,3.8,(153),No status
+Johor,Pasir Gudang,"Address: No. 13A &, 13B, Jln Ekoperniagaan 7, Taman Kota Masai, 81700 Pasir Gudang, Johor ",KFC KOTA MASAI,3.8,(336),Operating
+Johor,Pasir Gudang,"Address: No 17-19, 17-19, Jalan Intan 13, Taman Cahaya Masai, 81700 Pasir Gudang, Johor ",KFC Taman Cahaya Masai,4.0,(625),No status
+Johor,Pasir Gudang,"Address: Lot 72090, Taman Cahaya Masai, 81700 Pasir Gudang, Johor ",KFC- Petron Taman Cahaya Masai,3.8,(117),No status
+Johor,Johor Bahru,"Address: Jb Sentral, Lot 3 & 7 Main, 80000 Johor Bharu, Johor ",KFC JB Sentral,2.5,(267),Operating
+Johor,Johor Bahru,"Address: Sebahagian PTB 23174, Jalan Ibrahim Sultan, Mukim Bandar, 80300 Johor Bahru, Johor ",KFC Stulang Laut,4.1,"(3,214)",Operating
+Johor,Johor Bahru,"Address: PTB 23183, Mukim, Jalan Sungai Chat, Sri Gelam, 80100 Johor Bahru, Johor ",KFC Seri Gelam DT,3.9,"(1,922)",Operating
+Johor,Johor Bahru,"Address: PTD 103231, Taman Impian Senai, Mukim Senai, 81400 Daerah Kulai Jaya, Johor ",KFC Senai Impian Johor Drive Thru,3.8,"(1,465)",No status
+Johor,Johor Bahru,"Address: 6, Jalan Setia Tropika 1/21, Taman Setia Tropika, 81200 Johor Bahru, Johor Darul Ta'zim ",KFC Setia Tropika DT,3.5,"(1,449)",No status
+Johor,Johor Bahru,"Address: 96, Jalan Dedap 4, Taman Johor Jaya, 81100 Johor Bahru, Johor Darul Ta'zim ",KFC Johor Jaya,3.4,(431),No status
+Johor,Johor Bahru,"Address: Lot 590, 591, Persisiran Perling, Taman Perling, 81200 Johor Bahru, Johor ",KFC Taman Perling DT,3.7,"(1,792)",Operating
+Johor,Johor Bahru,"Address: Lot 413, Jalan Tampoi, Taman Damansara Aliff, 81200 Johor Bahru, Johor Darul Ta'zim ",KFC Damansara Aliff DT,4.0,"(1,469)",Operating
+Johor,Johor Bahru,"Address: No. G53, Ground Floor, AEON Mall, Kulai Jaya, 81000 Kulai, Johor ",KFC AEON Kulaijaya,3.3,(327),No status
+Johor,Johor Bahru,"Address: KSL City Mall, LG37 & LG45, LG Floor, Jalan Serigala, Taman Abad, 80250 Johor Bahru, Johor ","KFC KSL City Mall, Johor",3.8,(746),No status
+Johor,Johor Bahru,"Address: 21, Jalan Molek 1/29, Taman Molek, 81100 Johor Bahru, Johor Darul Ta'zim ",KFC Taman Molek,3.6,(631),Operating
+Johor,Johor Bahru,"Address: LG-009 (Lower Ground Floor, Mid Valley Megamall, Jalan Bakar Batu, Southkey, 81100 Johor Bahru, Johor Darul Ta'zim ",KFC MID VALLEY SOUTHKEY,3.2,(197),No status
+Johor,Johor Bahru,"Address: 66, Jalan Perwira 1, Taman Ungku Tun Aminah, 81300 Skudai, Johor Darul Ta'zim ",KFC Tun Aminah,3.7,(772),Operating
+Johor,Johor Bahru,"Address: PTB 17639-A, Jalan Kenyalang, Larkin Jaya, 80350 Johor Bahru, Johor Darul Ta'zim ",KFC Terminal Larkin DT,3.9,"(1,780)",Operating
+Johor,Johor Bahru,"Address: 5, Persiaran Jaya 1, Mutiara Rini, 81000 Skudai, Johor Darul Ta'zim ",KFC Mutiara Rini DT,3.7,"(1,703)",Operating
+Johor,Johor Bahru,"Address: 1, Jalan Bestari 1/5, Taman Nusa Bestari, 81300 Skudai, Johor Darul Ta'zim ",KFC Nusa Bestari,3.7,(875),Operating
+Johor,Johor Bahru,"Address: 19, Jalan Sagu 7, Taman Daya, 81100 Johor Bahru, Johor Darul Ta'zim ",KFC Taman Daya,3.6,(969),Operating
+Johor,Johor Bahru,"Address: Lot 5035, Batu 17 1/2, Jalan Air Hitam, Saleng, 81400 Senai, Johor ",KFC Kulai DT,3.4,"(1,042)",Operating
+Johor,Johor Bahru,"Address: Jalan Mutiara Emas Utama, Taman Austin Perdana, 81100 Johor Bahru, Johor Darul Ta'zim ",KFC Shell Mount Austin DT,3.8,(985),Operating
+Johor,Johor Bahru,"Address: Lot No. 4F51 & 52, Paradigm Mall, Skudai Hwy, 81200 Johor Bahru, Johor ",KFC Paradigm Mall,2.5,(251),No status
+Johor,Johor Bahru,"Address: 59, Medan Nusa Perintis 6, Taman Nusa Perintis 2, 81550 Gelang Patah, Johor Darul Ta'zim ",KFC Nusa Perintis Gelang Patah,3.8,"(1,779)",No status
+Johor,Johor Bahru,"Address: Ground & 1st Floor. 45 Jalan Susur Dewata 1, Jalan Dewata, Taman Larkin Perdana, 80350 Johor Bahru, Johor ",KFC Larkin,3.7,(608),Operating
+Johor,Johor Bahru,"Address: Lot H.S (D) 23569, PTD 8797, Mukim Senai, Daerah Kulai Jaya, 81400 Johor Bahru, Johor ",KFC Petronas Senai Airport DT,3.6,(381),No status
+Johor,Johor Bahru,"Address: Plaza Angsana, Lot L1.28a & L1.29, Skudai Hwy, Pusat Bandar Tampoi, 81200 Johor Bahru, Johor ",KFC Plaza Angsana,4.3,(348),No status
+Johor,Johor Bahru,"Address: Lot No PTD 171205 Bandar Dato Onn Mukim, 81100 Johor Bahru, Johor Darul Ta'zim ",KFC Petron Dato Onn DT,3.4,(625),No status
+Johor,Johor Bahru,"Address: Lot HS (D) 176907 (PTD 44992, Taman Universiti, 81300 Johor Bahru, Johor Darul Ta'zim ",KFC Petronas Taman University DT,3.6,(871),No status
+Johor,Johor Bahru,"Address: PTD 210469, Bandar Seri Alam, 81700 Johor Bahru, Johor ",KFC Seri Alam DT,3.7,"(1,384)",Operating
+Johor,Johor Bahru,"Address: Lot PTD 113519, Taman Puteri Wangsa, 81800 Johor Bahru, Johor ",KFC Puteri Wangsa DT,4.0,"(1,525)",Operating
+Johor,Johor Bahru,"Address: No 1,1-01, 1-02 & 1-03, 1, Jln Permas 10, Permas Jaya, 81750 Johor Bahru, Johor ",KFC Permas Jaya,3.8,(905),Operating
+Johor,Johor Bahru,"Address: 21, Jalan Sasa 6, Taman Gaya, 81800 Ulu Tiram, Johor Darul Ta'zim ",KFC Taman Gaya (ULU TIRAM),3.7,(650),Operating
+Johor,Johor Bahru,"Address: Johor Bahru Senai International Airport, Aero Mall, Lot S1-S4, Public Concourse, 81400 Senai, Johor ",KFC Senai Airport,2.9,(136),No status
+Johor,Johor Bahru,"Address: No. 152 & 153, Jalan Susur 3, Taman Kulai Besar, 81000 Kulai, Johor ",KFC Kulai,3.8,(616),No status
+Johor,Johor Bahru,"Address: Lot G9 dan G10 Ground Floor, AEON Jusco, Bukit Indah, 81200 Johor Bharu, Johor ",KFC AEON Bukit Indah,2.9,(541),No status
+Johor,Johor Bahru,"Address: Lot No G05 & G06, Galleria Plaza Kotaraya, Jalan Trus, Bandar Johor Bahru, 80000 Johor Bahru, Johor Darul Ta'zim ",KFC Galleria Kota Raya,3.1,(120),No status
+Johor,Johor Bahru,"Address: No. 1, Jalan Resam 13, Taman Bukit Tiram, 81800 Ulu Tiram, Johor ",KFC Taman Bukit Tiram (Ulu Tiram),4.0,(881),Operating
+Johor,Johor Bahru,"Address: Lot Zone C01, 03A Sultan Ibrahim Stadium, Jln Gelang Patah, 79100 Iskandar, Johor ",KFC STADIUM JDT,4.6,(195),Operating
+Johor,Johor Bahru,"Address: Plot 1, Block C, Jalan, Persiaran Dahlia 2, Taman Bukit Dahlia, 81200 Pasir Gudang, Johor ",KFC Pasir Gudang DT,3.8,"(1,427)",Operating
+Johor,Johor Bahru,"Address: Lot LG15, AEON Taman Universiti Shopping Centre, Taman Universiti, 81300 Johor Bahru, Johor ",KFC AEON Taman Universiti,3.5,(215),No status
+Johor,Johor Bahru,"Address: Lot L2-108, Level 2, Toppen Shopping Centre, Taman Desa Tebrau, 81100 Johor Bahru, Johor ",KFC Toppen Mall,2.3,(92),No status
+Johor,Johor Bahru,"Address: Sutera Mall, No. L2-027, Tingkat 2, Jalan Sutera Tanjung 8/4, Taman Sutera Utama, 81300 Johor Bahru, Johor ",KFC Sutera Mall Skudai,3.2,(269),Operating
+Johor,Johor Bahru,"Address: Lease 3 , Lotuss, Jalan Seri Alam, Bandar Baru Seri Alam, 81750 Johor Bahru, Johor ","KFC Lotus's Seri Alam, JB",3.6,(222),No status
+Johor,Johor Bahru,"Address: Lot J22 - J23 Level 3, City Square, Jalan Wong Ah Fook, Bandar Johor Bahru, 80300 Johor Bahru, Johor ",KFC City Square,2.4,(328),No status
+Johor,Johor Bahru,"Address: 307C, Level 3, Komtar JBCC, Jalan Wong Ah Fook, 80000 Johor Bahru, Johor ",KFC JBCC,2.8,(23),No status
+Johor,Pulai,"Address: Lot HS (D) 176907 (PTD 44992, Taman Universiti, 81300 Johor Bahru, Johor Darul Ta'zim ",KFC Petronas Taman University DT,3.6,(871),No status
+Johor,Pulai,"Address: Lot 413, Jalan Tampoi, Taman Damansara Aliff, 81200 Johor Bahru, Johor Darul Ta'zim ",KFC Damansara Aliff DT,4.0,"(1,469)",Operating
+Johor,Pulai,"Address: Sebahagian PTB 23174, Jalan Ibrahim Sultan, Mukim Bandar, 80300 Johor Bahru, Johor ",KFC Stulang Laut,4.1,"(3,214)",Operating
+Johor,Pulai,"Address: 1, Jalan Bestari 1/5, Taman Nusa Bestari, 81300 Skudai, Johor Darul Ta'zim ",KFC Nusa Bestari,3.7,(875),Operating
+Johor,Pulai,"Address: Lot PTD 113519, Taman Puteri Wangsa, 81800 Johor Bahru, Johor ",KFC Puteri Wangsa DT,4.0,"(1,525)",Operating
+Johor,Pulai,"Address: 5, Persiaran Jaya 1, Mutiara Rini, 81000 Skudai, Johor Darul Ta'zim ",KFC Mutiara Rini DT,3.7,"(1,704)",Operating
+Johor,Pulai,"Address: Lot No. 4F51 & 52, Paradigm Mall, Skudai Hwy, 81200 Johor Bahru, Johor ",KFC Paradigm Mall,2.5,(251),No status
+Johor,Pulai,"Address: 6, Jalan Setia Tropika 1/21, Taman Setia Tropika, 81200 Johor Bahru, Johor Darul Ta'zim ",KFC Setia Tropika DT,3.5,"(1,449)",No status
+Johor,Pulai,"Address: 66, Jalan Perwira 1, Taman Ungku Tun Aminah, 81300 Skudai, Johor Darul Ta'zim ",KFC Tun Aminah,3.7,(772),Operating
+Johor,Pulai,"Address: Plot F21, PTD 200669, Jalan Medini Selatan 1, Bandar Medini Iskandar, 79250 Iskandar Puteri, Johor ",KFC Caltex Nusajaya DT,2.9,(194),Operating
+Johor,Pulai,"Address: No. 152 & 153, Jalan Susur 3, Taman Kulai Besar, 81000 Kulai, Johor ",KFC Kulai,3.8,(616),No status
+Johor,Pulai,"Address: Plaza Angsana, Lot L1.28a & L1.29, Skudai Hwy, Pusat Bandar Tampoi, 81200 Johor Bahru, Johor ",KFC Plaza Angsana,4.3,(348),No status
+Johor,Iskandar Puteri,"Address: Lot G-35 Ground Floor, Medini Lifestyle Mall, 79200 Seri Iskandar, Johor ",KFC Medini Mall,2.7,(336),Operating
+Johor,Iskandar Puteri,"Address: Plot 1, Jalan Iskandar Puteri 1/2, Taman Nusantara Prima, Bandar Nusajaya, 81550 Gelang Patah, Johor ",KFC Iskandar Puteri,3.5,(771),No status
+Johor,Iskandar Puteri,"Address: Plot F21, PTD 200669, Jalan Medini Selatan 1, Bandar Medini Iskandar, 79250 Iskandar Puteri, Johor ",KFC Caltex Nusajaya DT,2.9,(194),Operating
+Johor,Iskandar Puteri,"Address: 59, Medan Nusa Perintis 6, Taman Nusa Perintis 2, 81550 Gelang Patah, Johor Darul Ta'zim ",KFC Nusa Perintis Gelang Patah,3.8,"(1,779)",No status
+Johor,Iskandar Puteri,"Address: 1, Jalan Indah 22/3, Taman Bukit Indah, 79100 Iskandar Puteri, Johor Darul Ta'zim ",KFC Petron Bukit Indah DT,2.4,(373),Operating
+Johor,Kulai,"Address: No. 152 & 153, Jalan Susur 3, Taman Kulai Besar, 81000 Kulai, Johor ",KFC Kulai,3.8,(616),No status
+Johor,Kulai,"Address: Lot PTD 107466, Jln Alor Bukit, Taman Lagenda Putra, 81000 Kulai, Johor ","KFC SHELL LAGENDA PUTRA DT, KULAI",3.6,(196),No status
+Johor,Kulai,"Address: No. 114 (Ground & 1st Floor, Jln Impiana 3, Taman Impiana, 81000 Kulai, Johor Darul Ta'zim ",KFC Taman Impiana Kulai,4.0,(66),No status
+Johor,Kulai,"Address: Lot 42, 43, Jalan 4/1, Taman Anggerik, 81440 Bandar Tenggara, Johor ",KFC Bandar Tenggara,3.8,(836),No status
+Johor,Kulai,"Address: Lot 5035, Batu 17 1/2, Jalan Air Hitam, Saleng, 81400 Senai, Johor ",KFC Kulai DT,3.4,"(1,042)",Operating
+Johor,Kulai,"Address: No. G53, Ground Floor, AEON Mall, Kulai Jaya, 81000 Kulai, Johor ",KFC AEON Kulaijaya,3.3,(327),No status
+Johor,Kulai,"Address: Lot G21, Ground Floor, IOI Mall Bandar Putra Senai, 81000 Kulai, Johor ",KFC Kulai 2 IOI Mall,2.6,(61),No status
+Johor,Pontian,"Address: Lot 1088-1091 & 3279, Mukim, Kampung Kubor, 82000 Pontian District, Johor ",KFC Pontian Drive Thru,3.8,(727),Operating
+Johor,Pontian,"Address: No. 17-G, 17-1 & 17-2, Jalan Mutiara 2 Pusat Perniagaan Benut Benut, 82200 Pontian, Johor ",KFC Benut,3.7,(182),Operating
+Johor,Pontian,"Address: Ground Floor, 668, Jalan Taib, Kampung Atap, 82000 Pontian District, Johor ",KFC Pontian,3.9,(227),Operating

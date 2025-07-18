@@ -1,0 +1,272 @@
+2025-07-16 16:12:29,135 - INFO - Extracting data from scraped_pagesource\KFC near Segamat, Johor.html
+2025-07-16 16:12:29,173 - INFO - Total of 3 KFC stores found
+2025-07-16 16:12:29,173 - INFO - Extracting data of 3 stores
+2025-07-16 16:12:29,175 - INFO - Store: KFC One Segamat completed.
+2025-07-16 16:12:29,176 - INFO - Store: KFC Segamat DT completed.
+2025-07-16 16:12:29,177 - INFO - Store: KFC Segamat completed.
+2025-07-16 16:12:29,178 - INFO - Extracting data from scraped_pagesource\KFC near Sekijang, Johor.html
+2025-07-16 16:12:29,394 - INFO - Total of 19 KFC stores found
+2025-07-16 16:12:29,402 - INFO - Extracting data of 19 stores
+2025-07-16 16:12:29,403 - INFO - Store: KFC Seri Gelam DT completed.
+2025-07-16 16:12:29,404 - INFO - Store: KFC STADIUM JDT completed.
+2025-07-16 16:12:29,406 - INFO - Store: KFC Johor Jaya completed.
+2025-07-16 16:12:29,407 - INFO - Store: KFC Stulang Laut completed.
+2025-07-16 16:12:29,408 - INFO - Store: KFC Segamat DT completed.
+2025-07-16 16:12:29,410 - INFO - Store: KFC Segamat completed.
+2025-07-16 16:12:29,411 - INFO - Store: KFC Puteri Wangsa DT completed.
+2025-07-16 16:12:29,412 - INFO - Store: KFC JB Sentral completed.
+2025-07-16 16:12:29,413 - INFO - Store: KFC Seri Alam DT completed.
+2025-07-16 16:12:29,414 - INFO - Store: KFC Mutiara Rini DT completed.
+2025-07-16 16:12:29,415 - INFO - Store: KFC One Segamat completed.
+2025-07-16 16:12:29,416 - INFO - Store: KFC Labis completed.
+2025-07-16 16:12:29,417 - INFO - Store: KFC Plaza Angsana completed.
+2025-07-16 16:12:29,418 - INFO - Store: KFC Jementah completed.
+2025-07-16 16:12:29,419 - INFO - Store: KFC City Square completed.
+2025-07-16 16:12:29,420 - INFO - Store: KFC Tangkak completed.
+2025-07-16 16:12:29,422 - INFO - Store: KFC Bukit Gambir completed.
+2025-07-16 16:12:29,423 - INFO - Store: KFC Parit Raja completed.
+2025-07-16 16:12:29,423 - INFO - Store: KFC @ Labis, Johor completed.
+2025-07-16 16:12:29,424 - INFO - Extracting data from scraped_pagesource\KFC near Labis, Johor.html
+2025-07-16 16:12:29,523 - INFO - Total of 1 KFC store found
+2025-07-16 16:12:29,523 - INFO - Extracting data of 1 store
+2025-07-16 16:12:29,532 - INFO - Store: KFC Labis completed.
+2025-07-16 16:12:29,533 - INFO - Extracting data from scraped_pagesource\KFC near Pagoh, Johor.html
+2025-07-16 16:12:29,557 - INFO - Total of 2 KFC stores found
+2025-07-16 16:12:29,557 - INFO - Extracting data of 2 stores
+2025-07-16 16:12:29,558 - INFO - Store: KFC RSA Pagoh completed.
+2025-07-16 16:12:29,559 - INFO - Store: KFC Bandar Universiti Pagoh DT completed.
+2025-07-16 16:12:29,560 - INFO - Extracting data from scraped_pagesource\KFC near Ledang, Johor.html
+2025-07-16 16:12:29,673 - INFO - Total of 1 KFC store found
+2025-07-16 16:12:29,673 - INFO - Extracting data of 1 store
+2025-07-16 16:12:29,685 - INFO - Store: KFC Tangkak completed.
+2025-07-16 16:12:29,686 - INFO - Extracting data from scraped_pagesource\KFC near Bakri, Johor.html
+2025-07-16 16:12:29,764 - INFO - Total of 6 KFC stores found
+2025-07-16 16:12:29,764 - INFO - Extracting data of 6 stores
+2025-07-16 16:12:29,765 - INFO - Store: KFC Muar 1 completed.
+2025-07-16 16:12:29,766 - INFO - Store: KFC Muar 2 completed.
+2025-07-16 16:12:29,767 - INFO - Store: KFC Pekan Bukit Pasir Muar completed.
+2025-07-16 16:12:29,768 - INFO - Store: KFC K Mart Muar completed.
+2025-07-16 16:12:29,769 - INFO - Store: KFC NSK Muar completed.
+2025-07-16 16:12:29,770 - INFO - Store: KFC Bandar Universiti Pagoh DT completed.
+2025-07-16 16:12:29,771 - INFO - Extracting data from scraped_pagesource\KFC near Muar, Johor.html
+2025-07-16 16:12:29,870 - INFO - Total of 8 KFC stores found
+2025-07-16 16:12:29,871 - INFO - Extracting data of 8 stores
+2025-07-16 16:12:29,872 - INFO - Store: KFC Muar 2 completed.
+2025-07-16 16:12:29,873 - INFO - Store: KFC Muar 1 completed.
+2025-07-16 16:12:29,875 - INFO - Store: KFC K Mart Muar completed.
+2025-07-16 16:12:29,876 - INFO - Store: KFC Pekan Bukit Pasir Muar completed.
+2025-07-16 16:12:29,878 - INFO - Store: KFC Bandar Universiti Pagoh DT completed.
+2025-07-16 16:12:29,879 - INFO - Store: KFC RSA Pagoh completed.
+2025-07-16 16:12:29,881 - INFO - Store: KFC NSK Muar completed.
+2025-07-16 16:12:29,883 - INFO - Store: KFC Bukit Gambir completed.
+2025-07-16 16:12:29,883 - INFO - Extracting data from scraped_pagesource\KFC near Parit Sulong, Johor.html
+2025-07-16 16:12:29,960 - INFO - Total of 1 KFC store found
+2025-07-16 16:12:29,961 - INFO - Extracting data of 1 store
+2025-07-16 16:12:29,969 - INFO - Store: KFC Parit Sulong completed.
+2025-07-16 16:12:29,970 - INFO - Extracting data from scraped_pagesource\KFC near Ayer Hitam, Johor.html
+2025-07-16 16:12:30,060 - INFO - Total of 1 KFC store found
+2025-07-16 16:12:30,060 - INFO - Extracting data of 1 store
+2025-07-16 16:12:30,069 - INFO - Store: KFC Bandar Baru Ayer Hitam Johor completed.
+2025-07-16 16:12:30,069 - INFO - Extracting data from scraped_pagesource\KFC near Sri Gading, Johor.html
+2025-07-16 16:12:30,127 - INFO - Total of 5 KFC stores found
+2025-07-16 16:12:30,127 - INFO - Extracting data of 5 stores
+2025-07-16 16:12:30,128 - INFO - Store: KFC Shell Parit Raja completed.
+2025-07-16 16:12:30,129 - INFO - Store: KFC Batu Pahat DT completed.
+2025-07-16 16:12:30,130 - INFO - Store: KFC Batu Pahat 1 completed.
+2025-07-16 16:12:30,131 - INFO - Store: KFC Parit Sulong completed.
+2025-07-16 16:12:30,132 - INFO - Store: KFC Bukit Pasir, BP3 completed.
+2025-07-16 16:12:30,133 - INFO - Extracting data from scraped_pagesource\KFC near Batu Pahat, Johor.html
+2025-07-16 16:12:30,196 - INFO - Total of 6 KFC stores found
+2025-07-16 16:12:30,196 - INFO - Extracting data of 6 stores
+2025-07-16 16:12:30,198 - INFO - Store: KFC Batu Pahat DT completed.
+2025-07-16 16:12:30,199 - INFO - Store: KFC Batu Pahat 1 completed.
+2025-07-16 16:12:30,200 - INFO - Store: KFC AEON Big Batu Pahat completed.
+2025-07-16 16:12:30,201 - INFO - Store: KFC Riverside Business Park completed.
+2025-07-16 16:12:30,202 - INFO - Store: KFC Bukit Pasir, BP3 completed.
+2025-07-16 16:12:30,203 - INFO - Store: KFC Tongkang Pechah completed.
+2025-07-16 16:12:30,203 - INFO - Extracting data from scraped_pagesource\KFC near Simpang Renggam, Johor.html
+2025-07-16 16:12:30,315 - INFO - Total of 1 KFC store found
+2025-07-16 16:12:30,315 - INFO - Extracting data of 1 store
+2025-07-16 16:12:30,328 - INFO - Store: KFC Shell Simpang Renggam DT completed.
+2025-07-16 16:12:30,328 - INFO - Extracting data from scraped_pagesource\KFC near Kluang, Johor.html
+2025-07-16 16:12:30,468 - INFO - Total of 7 KFC stores found
+2025-07-16 16:12:30,469 - INFO - Extracting data of 7 stores
+2025-07-16 16:12:30,470 - INFO - Store: KFC Kluang 1 completed.
+2025-07-16 16:12:30,471 - INFO - Store: KFC SERI IMPIAN KLUANG DT completed.
+2025-07-16 16:12:30,472 - INFO - Store: KFC Kluang 2 completed.
+2025-07-16 16:12:30,474 - INFO - Store: KFC Kluang Mall 2 completed.
+2025-07-16 16:12:30,475 - INFO - Store: KFC Kluang Parade completed.
+2025-07-16 16:12:30,476 - INFO - Store: KFC Shell Simpang Renggam DT completed.
+2025-07-16 16:12:30,477 - INFO - Store: KFC Versis Kluang completed.
+2025-07-16 16:12:30,478 - INFO - Extracting data from scraped_pagesource\KFC near Sembrong, Johor.html
+2025-07-16 16:12:30,781 - INFO - Total of 27 KFC stores found
+2025-07-16 16:12:30,782 - INFO - Extracting data of 27 stores
+2025-07-16 16:12:30,783 - INFO - Store: KFC SERI IMPIAN KLUANG DT completed.
+2025-07-16 16:12:30,785 - INFO - Store: KFC Shell Simpang Renggam DT completed.
+2025-07-16 16:12:30,786 - INFO - Store: KFC Kluang 1 completed.
+2025-07-16 16:12:30,787 - INFO - Store: KFC Kluang 2 completed.
+2025-07-16 16:12:30,788 - INFO - Store: KFC Versis Kluang completed.
+2025-07-16 16:12:30,789 - INFO - Store: KFC Kluang Parade completed.
+2025-07-16 16:12:30,791 - INFO - Store: KFC Kluang Mall 2 completed.
+2025-07-16 16:12:30,792 - INFO - Store: KFC Bandar Baru Ayer Hitam Johor completed.
+2025-07-16 16:12:30,793 - INFO - Store: KFC Bandar Tenggara completed.
+2025-07-16 16:12:30,794 - INFO - Store: KFC STADIUM JDT completed.
+2025-07-16 16:12:30,795 - INFO - Store: KFC Stulang Laut completed.
+2025-07-16 16:12:30,796 - INFO - Store: KFC Yong Peng completed.
+2025-07-16 16:12:30,797 - INFO - Store: KFC Setia Tropika DT completed.
+2025-07-16 16:12:30,798 - INFO - Store: KFC Seri Alam DT completed.
+2025-07-16 16:12:30,800 - INFO - Store: KFC Petronas Senai Airport DT completed.
+2025-07-16 16:12:30,801 - INFO - Store: KFC Plaza Angsana completed.
+2025-07-16 16:12:30,802 - INFO - Store: KFC JB Sentral completed.
+2025-07-16 16:12:30,803 - INFO - Store: KFC Paradigm Mall completed.
+2025-07-16 16:12:30,804 - INFO - Store: KFC Shell Parit Raja completed.
+2025-07-16 16:12:30,805 - INFO - Store: KFC Tun Aminah completed.
+2025-07-16 16:12:30,808 - INFO - Store: KFC Petronas Taman University DT completed.
+2025-07-16 16:12:30,809 - INFO - Store: KFC Damansara Aliff DT completed.
+2025-07-16 16:12:30,811 - INFO - Store: KFC Labis completed.
+2025-07-16 16:12:30,812 - INFO - Store: KFC Mersing completed.
+2025-07-16 16:12:30,813 - INFO - Store: KFC Batu Pahat DT completed.
+2025-07-16 16:12:30,815 - INFO - Store: KFC City Square completed.
+2025-07-16 16:12:30,816 - INFO - Store: KFC Benut completed.
+2025-07-16 16:12:30,817 - INFO - Extracting data from scraped_pagesource\KFC near Mersing, Johor.html
+2025-07-16 16:12:30,874 - INFO - Total of 4 KFC stores found
+2025-07-16 16:12:30,874 - INFO - Extracting data of 4 stores
+2025-07-16 16:12:30,876 - INFO - Store: KFC Mersing completed.
+2025-07-16 16:12:30,878 - INFO - Store: KFC MERSING HARBOUR DT completed.
+2025-07-16 16:12:30,881 - INFO - Store: Marrybrown Fried Chicken completed.
+2025-07-16 16:12:30,882 - INFO - Store: KFC Tanjung Leman Kiosk completed.
+2025-07-16 16:12:30,883 - INFO - Extracting data from scraped_pagesource\KFC near Tenggara, Johor.html
+2025-07-16 16:12:30,996 - INFO - Total of 1 KFC store found
+2025-07-16 16:12:30,996 - INFO - Extracting data of 1 store
+2025-07-16 16:12:31,005 - INFO - Store: KFC Bandar Tenggara completed.
+2025-07-16 16:12:31,006 - INFO - Extracting data from scraped_pagesource\KFC near Kota Tinggi, Johor.html
+2025-07-16 16:12:31,054 - INFO - Total of 4 KFC stores found
+2025-07-16 16:12:31,054 - INFO - Extracting data of 4 stores
+2025-07-16 16:12:31,055 - INFO - Store: KFC SERI IMPIAN KLUANG DT completed.
+2025-07-16 16:12:31,056 - INFO - Store: KFC Kota Tinggi completed.
+2025-07-16 16:12:31,058 - INFO - Store: KFC Bandar Tenggara completed.
+2025-07-16 16:12:31,060 - INFO - Store: KFC KIP Mart Kota Tinggi completed.
+2025-07-16 16:12:31,061 - INFO - Extracting data from scraped_pagesource\KFC near Pengerang, Johor.html
+2025-07-16 16:12:31,170 - INFO - Total of 10 KFC stores found
+2025-07-16 16:12:31,170 - INFO - Extracting data of 10 stores
+2025-07-16 16:12:31,171 - INFO - Store: KFC Desaru completed.
+2025-07-16 16:12:31,172 - INFO - Store: KFC Stulang Laut completed.
+2025-07-16 16:12:31,173 - INFO - Store: KFC Kota Tinggi completed.
+2025-07-16 16:12:31,175 - INFO - Store: KFC Seri Gelam DT completed.
+2025-07-16 16:12:31,176 - INFO - Store: KFC Petron Dato Onn DT completed.
+2025-07-16 16:12:31,177 - INFO - Store: KFC Johor Jaya completed.
+2025-07-16 16:12:31,178 - INFO - Store: KFC Taman Perling DT completed.
+2025-07-16 16:12:31,179 - INFO - Store: KFC Seri Alam DT completed.
+2025-07-16 16:12:31,180 - INFO - Store: KFC PETRON PENGERANG completed.
+2025-07-16 16:12:31,181 - INFO - Store: KFC Rengit completed.
+2025-07-16 16:12:31,182 - INFO - Extracting data from scraped_pagesource\KFC near Tebrau, Johor.html
+2025-07-16 16:12:31,231 - INFO - Total of 6 KFC stores found
+2025-07-16 16:12:31,231 - INFO - Extracting data of 6 stores
+2025-07-16 16:12:31,232 - INFO - Store: KFC Puteri Wangsa DT completed.
+2025-07-16 16:12:31,233 - INFO - Store: KFC Toppen Mall completed.
+2025-07-16 16:12:31,234 - INFO - Store: KFC Stulang Laut completed.
+2025-07-16 16:12:31,235 - INFO - Store: KFC Johor Jaya completed.
+2025-07-16 16:12:31,236 - INFO - Store: KFC Petron Dato Onn DT completed.
+2025-07-16 16:12:31,237 - INFO - Store: KFC AEON Tebrau City completed.
+2025-07-16 16:12:31,238 - INFO - Extracting data from scraped_pagesource\KFC near Pasir Gudang, Johor.html
+2025-07-16 16:12:31,293 - INFO - Total of 5 KFC stores found
+2025-07-16 16:12:31,293 - INFO - Extracting data of 5 stores
+2025-07-16 16:12:31,294 - INFO - Store: KFC Pasir Gudang DT completed.
+2025-07-16 16:12:31,295 - INFO - Store: KFC Pasir Gudang completed.
+2025-07-16 16:12:31,296 - INFO - Store: KFC KOTA MASAI completed.
+2025-07-16 16:12:31,297 - INFO - Store: KFC Taman Cahaya Masai completed.
+2025-07-16 16:12:31,298 - INFO - Store: KFC- Petron Taman Cahaya Masai completed.
+2025-07-16 16:12:31,299 - INFO - Extracting data from scraped_pagesource\KFC near Johor Bahru, Johor.html
+2025-07-16 16:12:31,769 - INFO - Total of 43 KFC stores found
+2025-07-16 16:12:31,769 - INFO - Extracting data of 43 stores
+2025-07-16 16:12:31,771 - INFO - Store: KFC JB Sentral completed.
+2025-07-16 16:12:31,772 - INFO - Store: KFC Stulang Laut completed.
+2025-07-16 16:12:31,773 - INFO - Store: KFC Seri Gelam DT completed.
+2025-07-16 16:12:31,774 - INFO - Store: KFC Senai Impian Johor Drive Thru completed.
+2025-07-16 16:12:31,775 - INFO - Store: KFC Setia Tropika DT completed.
+2025-07-16 16:12:31,776 - INFO - Store: KFC Johor Jaya completed.
+2025-07-16 16:12:31,777 - INFO - Store: KFC Taman Perling DT completed.
+2025-07-16 16:12:31,778 - INFO - Store: KFC Damansara Aliff DT completed.
+2025-07-16 16:12:31,779 - INFO - Store: KFC AEON Kulaijaya completed.
+2025-07-16 16:12:31,781 - INFO - Store: KFC KSL City Mall, Johor completed.
+2025-07-16 16:12:31,782 - INFO - Store: KFC Taman Molek completed.
+2025-07-16 16:12:31,783 - INFO - Store: KFC MID VALLEY SOUTHKEY completed.
+2025-07-16 16:12:31,785 - INFO - Store: KFC Tun Aminah completed.
+2025-07-16 16:12:31,787 - INFO - Store: KFC Terminal Larkin DT completed.
+2025-07-16 16:12:31,789 - INFO - Store: KFC Mutiara Rini DT completed.
+2025-07-16 16:12:31,791 - INFO - Store: KFC Nusa Bestari completed.
+2025-07-16 16:12:31,793 - INFO - Store: KFC Taman Daya completed.
+2025-07-16 16:12:31,794 - INFO - Store: KFC Kulai DT completed.
+2025-07-16 16:12:31,795 - INFO - Store: KFC Shell Mount Austin DT completed.
+2025-07-16 16:12:31,796 - INFO - Store: KFC Paradigm Mall completed.
+2025-07-16 16:12:31,797 - INFO - Store: KFC Nusa Perintis Gelang Patah completed.
+2025-07-16 16:12:31,798 - INFO - Store: KFC Larkin completed.
+2025-07-16 16:12:31,799 - INFO - Store: KFC Petronas Senai Airport DT completed.
+2025-07-16 16:12:31,801 - INFO - Store: KFC Plaza Angsana completed.
+2025-07-16 16:12:31,802 - INFO - Store: KFC Petron Dato Onn DT completed.
+2025-07-16 16:12:31,803 - INFO - Store: KFC Petronas Taman University DT completed.
+2025-07-16 16:12:31,805 - INFO - Store: KFC Seri Alam DT completed.
+2025-07-16 16:12:31,806 - INFO - Store: KFC Puteri Wangsa DT completed.
+2025-07-16 16:12:31,808 - INFO - Store: KFC Permas Jaya completed.
+2025-07-16 16:12:31,810 - INFO - Store: KFC Taman Gaya (ULU TIRAM) completed.
+2025-07-16 16:12:31,811 - INFO - Store: KFC Senai Airport completed.
+2025-07-16 16:12:31,813 - INFO - Store: KFC Kulai completed.
+2025-07-16 16:12:31,814 - INFO - Store: KFC AEON Bukit Indah completed.
+2025-07-16 16:12:31,815 - INFO - Store: KFC Galleria Kota Raya completed.
+2025-07-16 16:12:31,816 - INFO - Store: KFC Taman Bukit Tiram (Ulu Tiram) completed.
+2025-07-16 16:12:31,817 - INFO - Store: KFC STADIUM JDT completed.
+2025-07-16 16:12:31,819 - INFO - Store: KFC Pasir Gudang DT completed.
+2025-07-16 16:12:31,820 - INFO - Store: KFC AEON Taman Universiti completed.
+2025-07-16 16:12:31,822 - INFO - Store: KFC Toppen Mall completed.
+2025-07-16 16:12:31,823 - INFO - Store: KFC Sutera Mall Skudai completed.
+2025-07-16 16:12:31,824 - INFO - Store: KFC Lotus's Seri Alam, JB completed.
+2025-07-16 16:12:31,825 - INFO - Store: KFC City Square completed.
+2025-07-16 16:12:31,826 - INFO - Store: KFC JBCC completed.
+2025-07-16 16:12:31,827 - INFO - Extracting data from scraped_pagesource\KFC near Pulai, Johor.html
+2025-07-16 16:12:31,963 - INFO - Total of 12 KFC stores found
+2025-07-16 16:12:31,963 - INFO - Extracting data of 12 stores
+2025-07-16 16:12:31,964 - INFO - Store: KFC Petronas Taman University DT completed.
+2025-07-16 16:12:31,965 - INFO - Store: KFC Damansara Aliff DT completed.
+2025-07-16 16:12:31,967 - INFO - Store: KFC Stulang Laut completed.
+2025-07-16 16:12:31,969 - INFO - Store: KFC Nusa Bestari completed.
+2025-07-16 16:12:31,970 - INFO - Store: KFC Puteri Wangsa DT completed.
+2025-07-16 16:12:31,971 - INFO - Store: KFC Mutiara Rini DT completed.
+2025-07-16 16:12:31,972 - INFO - Store: KFC Paradigm Mall completed.
+2025-07-16 16:12:31,973 - INFO - Store: KFC Setia Tropika DT completed.
+2025-07-16 16:12:31,974 - INFO - Store: KFC Tun Aminah completed.
+2025-07-16 16:12:31,975 - INFO - Store: KFC Caltex Nusajaya DT completed.
+2025-07-16 16:12:31,976 - INFO - Store: KFC Kulai completed.
+2025-07-16 16:12:31,977 - INFO - Store: KFC Plaza Angsana completed.
+2025-07-16 16:12:31,978 - INFO - Extracting data from scraped_pagesource\KFC near Iskandar Puteri, Johor.html
+2025-07-16 16:12:32,035 - INFO - Total of 5 KFC stores found
+2025-07-16 16:12:32,035 - INFO - Extracting data of 5 stores
+2025-07-16 16:12:32,036 - INFO - Store: KFC Medini Mall completed.
+2025-07-16 16:12:32,037 - INFO - Store: KFC Iskandar Puteri completed.
+2025-07-16 16:12:32,038 - INFO - Store: KFC Caltex Nusajaya DT completed.
+2025-07-16 16:12:32,039 - INFO - Store: KFC Nusa Perintis Gelang Patah completed.
+2025-07-16 16:12:32,040 - INFO - Store: KFC Petron Bukit Indah DT completed.
+2025-07-16 16:12:32,041 - INFO - Extracting data from scraped_pagesource\KFC near Kulai, Johor.html
+2025-07-16 16:12:32,123 - INFO - Total of 7 KFC stores found
+2025-07-16 16:12:32,123 - INFO - Extracting data of 7 stores
+2025-07-16 16:12:32,124 - INFO - Store: KFC Kulai completed.
+2025-07-16 16:12:32,125 - INFO - Store: KFC SHELL LAGENDA PUTRA DT, KULAI completed.
+2025-07-16 16:12:32,126 - INFO - Store: KFC Taman Impiana Kulai completed.
+2025-07-16 16:12:32,128 - INFO - Store: KFC Bandar Tenggara completed.
+2025-07-16 16:12:32,129 - INFO - Store: KFC Kulai DT completed.
+2025-07-16 16:12:32,130 - INFO - Store: KFC AEON Kulaijaya completed.
+2025-07-16 16:12:32,131 - INFO - Store: KFC Kulai 2 IOI Mall completed.
+2025-07-16 16:12:32,132 - INFO - Extracting data from scraped_pagesource\KFC near Pontian, Johor.html
+2025-07-16 16:12:32,165 - INFO - Total of 3 KFC stores found
+2025-07-16 16:12:32,165 - INFO - Extracting data of 3 stores
+2025-07-16 16:12:32,166 - INFO - Store: KFC Pontian Drive Thru completed.
+2025-07-16 16:12:32,167 - INFO - Store: KFC Benut completed.
+2025-07-16 16:12:32,168 - INFO - Store: KFC Pontian completed.
+2025-07-16 16:12:32,169 - INFO - Extracting data from scraped_pagesource\KFC near Tanjung Piai, Johor.html
+2025-07-16 16:12:32,249 - INFO - Total of 8 KFC stores found
+2025-07-16 16:12:32,250 - INFO - Extracting data of 8 stores
+2025-07-16 16:12:32,250 - INFO - Store: KFC Pontian Drive Thru completed.
+2025-07-16 16:12:32,252 - INFO - Store: KFC Pontian completed.
+2025-07-16 16:12:32,253 - INFO - Store: KFC SHELL PEKAN NANAS DRIVE THRU completed.
+2025-07-16 16:12:32,254 - INFO - Store: KFC Nusa Perintis Gelang Patah completed.
+2025-07-16 16:12:32,255 - INFO - Store: KFC Benut completed.
+2025-07-16 16:12:32,256 - INFO - Store: KFC Petronas Senai Airport DT completed.
