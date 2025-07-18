@@ -44,14 +44,15 @@ class Scrape:
                     status = store.find(name="span", attrs={"class": "ZDu9vd"}).find_next().find_next().text
                     if status in ['Open', 'Closed', 'Closes soon', 'Open 24 hours']:
                         store_status = 'Operating'
-                    elif status == 'Permanently closed': 
-                        store_status = 'Permanently Closed'
-                    elif status =='Temporarily closed':
-                        store_status = 'Temporarily Closed'
                     else:
-                        store_status = 'No status'
+                        status = store.find(name="span", attrs={"class": "aSftqf"}).text
+                        if status == 'Permanently closed': 
+                            store_status = 'Permanently Closed'
+                        elif status =='Temporarily closed':
+                            store_status = 'Temporarily Closed'
                 except AttributeError:
                     store_status = 'No status'
+                  
 
                 if store.find(name= 'div', attrs={"class": "dmRWX", "style": "display: none"}):
                     ratings = 0
