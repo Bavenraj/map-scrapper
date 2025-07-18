@@ -1,5 +1,5 @@
 from map_crawler import Crawl
-from map_scrapper import extract_data, extract_source
+from map_scrapper import Scrape
 import logging
 
 #Full List of State
@@ -26,8 +26,9 @@ def crawl(store):
 #crawl('KFC')
 
 def scrape(store):
+    scraper = Scrape(store)
     logging.basicConfig(filename=f"log/{store}_map_scrapper.log", encoding="utf-8", filemode="a",
                     level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
-    extract_source(store)
+    scraper.extract_source()
 
 scrape('KFC')
