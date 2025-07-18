@@ -42,7 +42,7 @@ class Scrape:
                     address = "Address: No Address"
                 try:
                     status = store.find(name="span", attrs={"class": "ZDu9vd"}).find_next().find_next().text
-                    if status in ['Open', 'Closed', 'Open 24 hours']:
+                    if status in ['Open', 'Closed', 'Closes soon', 'Open 24 hours']:
                         store_status = 'Operating'
                     elif status == 'Permanently closed': 
                         store_status = 'Permanently Closed'
@@ -79,7 +79,7 @@ class Scrape:
                 address = soup.find(name= 'button', attrs={"data-item-id": "address"})['aria-label']
             except TypeError:
                 address = "Address: No Address"
-            if soup.find(string='Open') or soup.find(string='Closed') or soup.find(string='Open 24 hours'):
+            if soup.find(string='Open') or soup.find(string='Closed') or soup.find(string='Open 24 hours') or soup.find(string='Closes soon'):
                 store_status = 'Operating'
             elif soup.find(string='Permanently closed'):
                 store_status = 'Permanently Closed'
