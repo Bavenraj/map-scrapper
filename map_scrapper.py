@@ -68,7 +68,7 @@ class Scrape:
                     'Address': address,
                     'Store Name' : name,
                     'Rating' : ratings,
-                    'Review Count': review,
+                    'Review Count': review * -1,
                     'Store Status': store_status                        
                 })
                 logging.info(f'Store: {name} completed.')
