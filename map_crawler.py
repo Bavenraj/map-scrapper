@@ -12,13 +12,16 @@ from selenium.common.exceptions import TimeoutException, NoSuchElementException
 from file_modifier import get_file, write_file
 
 class Crawl:
-    def __init__(self):
+    def __init__(self, store, state_list = area_to_scrape_dict):
+        logging.info('--Web Crawling--')
         logging.info("Initializing WebDriver")
         options = Options()
         options.page_load_strategy = 'eager'
         self.driver = webdriver.Chrome(options=options)
         self.driver.maximize_window()
         self.fieldnames = ['Store', 'State', 'Area', 'Count', 'Duration']
+        self.store = store
+        self.state_to_scrape = state_list
 
     def load_map(self):
         logging.info("Loading Google Maps")
@@ -44,8 +47,6 @@ class Crawl:
         NearbyButton.click()
         time.sleep(1)
         
-        #return self.driver
-
     def find_nearby_location(self, query):    
         
         logging.info("Getting nearby location input search box ")
@@ -153,19 +154,19 @@ class Crawl:
         logging.info(f"{query}: {final_count}")
         return final_count
             
-    def get_query(self, store, state_list = area_to_scrape_dict):
+    def get_query(self):
 
         query_list = []
-        file_name = f'dataset/list_of_{store}_by_area.csv'
-        state_to_scrape = state_list
+        file_name = f'dataset/list_of_{self.store}_by_area.csv'
+        
         filtered_dict = {}
         for state, areas in area_to_scrape_dict.items():
-            if state in state_to_scrape:
+            if state in self.state_to_scrape:
                 filtered_dict[state] = areas
         csv_file = get_file(file_name, self.fieldnames, filtered_dict)      
         for state, areas in filtered_dict.items():
             for area in areas:
-                query = f"{store} near {area}, {state}"
+                query = f"{self.store} near {area}, {state}"
                 query_list.append(query)
         return query_list, csv_file 
 
@@ -174,7 +175,7 @@ class Crawl:
         failed_at_index = query_list.index(query)
         return query_list[failed_at_index:]
 
-    def start_scrape(self, store, query_list, csv_file):
+    def start_scrape(self, query_list, csv_file):
         store_count = []
         for query in query_list:
             store_data = []
@@ -188,7 +189,7 @@ class Crawl:
                 end_time = time.perf_counter()
                 scraping_duration = end_time - start_time
                 data_link = {
-                    'Store': store,
+                    'Store': self.store,
                     'State': state[1],
                     'Area' : area[1],
                     'Count': store_count[-1],
@@ -197,7 +198,7 @@ class Crawl:
                 store_data.append(data_link) 
                     
                 write_file(csv_file, self.fieldnames, store_data)    
-                logging.info(f"{store} data for {query} was loaded into csv")
+                logging.info(f"{self.store} data for {query} was loaded into csv")
             except Exception as e:
                 raise Exception(query)
     #print(store_data)

@@ -5,17 +5,17 @@ from file_modifier import get_file, write_file
 
 class Scrape:
     
-    def __init__(self, store):
+    def __init__(self, store, state_list = area_to_scrape_dict ):
         self.store = store
+        self.state_to_extract = state_list
 
-    def extract_source(self, state_list = area_to_scrape_dict):
+    def extract_source(self):
         file_name = f'dataset/scraped_{self.store}_data.csv'
         fieldnames=['State', 'Area', 'Address', 'Store Name','Rating', 'Review Count', 'Store Status']
-        csv_file = get_file(file_name, fieldnames, state_list)
-        state_to_extract = state_list
+        csv_file = get_file(file_name, fieldnames, self.state_to_extract)
         filtered_dict = {}
         for state, areas in area_to_scrape_dict.items():
-            if state in state_to_extract:
+            if state in self.state_to_extract:
                 filtered_dict[state] = areas
         for state, areas in filtered_dict.items():
             for area in areas:
@@ -28,6 +28,7 @@ class Scrape:
     def extract_data(self, state, area):
         store_data = []
         page_source = f"scraped_pagesource\{self.store} near {area}, {state}.html"
+        logging.info('--Data Extraction--')
         logging.info(f'Extracting data from {page_source}')
         soup = BeautifulSoup(open(page_source, encoding='utf-8').read(), 'html.parser')
         if soup.find(name='div',attrs={"class": "store_details"}):
