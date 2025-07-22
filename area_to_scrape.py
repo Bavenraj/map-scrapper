@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv('dataset/area_to_scrape.csv')
+df = pd.read_csv('location_data/area_to_scrape.csv')
 df = df.filter(['state', 'Area'])
 
 area_to_scrape_dict = {}
