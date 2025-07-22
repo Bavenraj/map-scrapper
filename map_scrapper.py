@@ -5,12 +5,14 @@ from file_modifier import get_file, write_file
 
 class Scrape:
     
-    def __init__(self, store, state_list = area_to_scrape_dict ):
+    def __init__(self, store, pagesource_dir, dataset_dir, state_list = area_to_scrape_dict ):
         self.store = store
         self.state_to_extract = state_list
+        self.html_page_source = pagesource_dir
+        self.dataset = dataset_dir
 
     def extract_source(self):
-        file_name = f'dataset/scraped_{self.store}_data.csv'
+        file_name = f'{self.dataset}/scraped_{self.store}_data.csv'
         fieldnames=['State', 'Area', 'Address', 'Store Name','Rating', 'Review Count', 'Store Status']
         csv_file = get_file(file_name, fieldnames, self.state_to_extract)
         filtered_dict = {}
@@ -27,7 +29,7 @@ class Scrape:
 
     def extract_data(self, state, area):
         store_data = []
-        page_source = f"scraped_pagesource\{self.store} near {area}, {state}.html"
+        page_source = f"{self.html_page_source}\{self.store} near {area}, {state}.html"
         logging.info('--Data Extraction--')
         logging.info(f'Extracting data from {page_source}')
         soup = BeautifulSoup(open(page_source, encoding='utf-8').read(), 'html.parser')

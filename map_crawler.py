@@ -12,7 +12,7 @@ from selenium.common.exceptions import TimeoutException, NoSuchElementException
 from file_modifier import get_file, write_file
 
 class Crawl:
-    def __init__(self, store, state_list = area_to_scrape_dict):
+    def __init__(self, store, pagesource_dir, dataset_dir, state_list = area_to_scrape_dict ):
         logging.info('--Web Crawling--')
         logging.info("Initializing WebDriver")
         options = Options()
@@ -22,6 +22,8 @@ class Crawl:
         self.fieldnames = ['Store', 'State', 'Area', 'Count', 'Duration']
         self.store = store
         self.state_to_scrape = state_list
+        self.html_page_source = pagesource_dir
+        self.dataset = dataset_dir
 
     def load_map(self):
         logging.info("Loading Google Maps")
@@ -125,7 +127,7 @@ class Crawl:
                     pass
                 
         logging.info("Combining Page Sources")
-        with open(f"scraped_pagesource/{query}.html", "w", encoding="utf-8") as file:
+        with open(f"{self.html_page_source}/{query}.html", "w", encoding="utf-8") as file:
             file.write(f"<html><head><meta charset='utf-8'></head><body>{''.join(all_stores_detail)}</body><html>")
         logging.info(f"{query}: {final_count}")
         
@@ -148,7 +150,7 @@ class Crawl:
                 break
             else:
                 pass
-        with open(f"scraped_pagesource/{query}.html", "w", encoding="utf-8") as file:
+        with open(f"{self.html_page_source}/{query}.html", "w", encoding="utf-8") as file:
             file.write(page_html)
         final_count = 1
         logging.info(f"{query}: {final_count}")
@@ -157,7 +159,7 @@ class Crawl:
     def get_query(self):
 
         query_list = []
-        file_name = f'dataset/list_of_{self.store}_by_area.csv'
+        file_name = f'{self.dataset}/list_of_{self.store}_by_area.csv'
         
         filtered_dict = {}
         for state, areas in area_to_scrape_dict.items():
