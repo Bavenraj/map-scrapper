@@ -7,7 +7,7 @@ import os
 State = ["Perlis",	"Kedah", "Kelantan", "Terengganu", "Pulau Pinang", "Perak",	"Pahang", "Selangor", "Negeri Sembilan", "Melaka", "Johor", "Sabah", "Sarawak",	"W.P. Kuala Lumpur", "W.P. Putrajaya", "W.P. Labuan"]
 #Store to Scrape
 
-def crawl(store, pagesource_dir, dataset_dir, state_list):
+def crawl(store, pagesource_dir, dataset_dir, state_list ):
     crawler = Crawl(store, pagesource_dir, dataset_dir, state_list)
     query_list, csv_file = crawler.get_query()
     while True:
@@ -15,18 +15,17 @@ def crawl(store, pagesource_dir, dataset_dir, state_list):
             crawler.start_scrape(query_list, csv_file)
             break
         except Exception as e:
-            logging.info(f"An exception occured while scraping: {e.args[0]}")
-            #print(f"{e}")
-            print(e)
-            failed_query = e.args[0] 
+            logging.info(f"An exception occured while scraping: {e}.")
+            error_message = str(e)
+            failed_query = error_message.split("query :")[-1].strip()
             query_list = crawler.get_updated_query_list(failed_query, query_list)
             logging.info('Restarting Process')
-    
+            e.__cause__
 def scrape(store, pagesource_dir, dataset_dir, state_list ):
     scraper = Scrape(store, pagesource_dir, dataset_dir, state_list )
     scraper.extract_source()
 
-def start(store, state_list):
+def start(store, state_list = State):
     directory = f"{store} Scrapper"
     log_dir = f"{directory}/log"
     dataset_dir = f"{directory}/dataset"
@@ -42,4 +41,4 @@ def start(store, state_list):
     crawl(store, pagesource_dir, dataset_dir, state_list )
     scrape(store, pagesource_dir, dataset_dir, state_list)
     
-start('KFC', ["W.P. Labuan"])
+start("McDonald's")

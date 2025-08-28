@@ -169,6 +169,7 @@ class Crawl:
         for state, areas in filtered_dict.items():
             for area in areas:
                 query = f"{self.store} near {area}, {state}"
+                #query = query.replace("'", "\\'")
                 query_list.append(query)
         return query_list, csv_file 
 
@@ -202,5 +203,5 @@ class Crawl:
                 write_file(csv_file, self.fieldnames, store_data)    
                 logging.info(f"{self.store} data for {query} was loaded into csv")
             except Exception as e:
-                raise Exception(query)
+               raise Exception(f"{e} for query : {query}")
     #print(store_data)
