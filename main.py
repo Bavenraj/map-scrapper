@@ -41,4 +41,4 @@ def start(store, state_list = State):
     crawl(store, pagesource_dir, dataset_dir, state_list )
     scrape(store, pagesource_dir, dataset_dir, state_list)
     
-start("McDonald's")
+start("McDonalds")
