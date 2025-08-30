@@ -4,6 +4,7 @@ import logging
 from file_modifier import get_file, write_file
 
 class Scrape:
+    """Scrape element for """
     
     def __init__(self, store, pagesource_dir, dataset_dir, state_list = area_to_scrape_dict ):
         self.store = store
@@ -29,7 +30,7 @@ class Scrape:
 
     def extract_data(self, state, area):
         store_data = []
-        page_source = f"{self.html_page_source}\{self.store} near {area}, {state}.html"
+        page_source = f"{self.html_page_source}/{self.store} near {area}, {state}.html"
         logging.info('--Data Extraction--')
         logging.info(f'Extracting data from {page_source}')
         soup = BeautifulSoup(open(page_source, encoding='utf-8').read(), 'html.parser')
@@ -70,7 +71,7 @@ class Scrape:
                     'Address': address,
                     'Store Name' : name,
                     'Rating' : ratings,
-                    'Review Count': review * -1,
+                    'Review Count': review ,
                     'Store Status': store_status                        
                 })
                 logging.info(f'Store: {name} completed.')
