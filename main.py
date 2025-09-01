@@ -26,7 +26,7 @@ def scrape(store, pagesource_dir, dataset_dir, state_list ):
     scraper.extract_source()
 
 def start(store, state_list = State):
-    directory = f"{store} Scrapper"
+    directory = f"Scrapper/{store} Scrapper"
     log_dir = f"{directory}/log"
     dataset_dir = f"{directory}/dataset"
     pagesource_dir = f"{directory}/html_page_source"
@@ -38,7 +38,7 @@ def start(store, state_list = State):
 
     logging.basicConfig(filename=f"{log_dir}/{store}_map_scrapper.log", encoding="utf-8", filemode="a",
                     level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
-    #crawl(store, pagesource_dir, dataset_dir, state_list )
+    crawl(store, pagesource_dir, dataset_dir, state_list )
     scrape(store, pagesource_dir, dataset_dir, state_list)
     
-start("McDonalds")
+start("Burger King")
